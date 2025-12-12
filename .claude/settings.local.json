@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx prisma migrate:*)",
+      "Bash(find:*)",
+      "Bash(npx prisma generate:*)",
+      "Bash(DATABASE_URL=\"postgresql://neondb_owner:npg_qg4df8rMmRpi@ep-sweet-wildflower-agrplesm-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require\" npx prisma db push:*)",
+      "Bash(DATABASE_URL=\"postgresql://neondb_owner:npg_qg4df8rMmRpi@ep-sweet-wildflower-agrplesm-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require\" npx tsx:*)"
+    ]
+  }
+}

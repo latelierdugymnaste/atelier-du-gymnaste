@@ -1,0 +1,128 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id        String           @id @default(cuid())
+  name      String
+  category  String
+  sku       String           @unique
+  isActive  Boolean          @default(true)
+  createdAt DateTime         @default(now())
+  updatedAt DateTime         @updatedAt
+
+  variants  ProductVariant[]
+  expenses  Expense[]
+}
+
+model ProductVariant {
+  id           String   @id @default(cuid())
+  productId    String
+  size         String
+  sellingPrice Decimal  @default(0)
+  costPrice    Decimal  @default(0)
+  stock        Int      @default(0)
+  minStock     Int      @default(5)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  product    Product     @relation(fields: [productId], references: [id], onDelete: Cascade)
+  orderItems OrderItem[]
+
+  @@unique([productId, size])
+}
+
+model Customer {
+  id        String   @id @default(cuid())
+  name      String
+  email     String?
+  phone     String?
+  address   String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  orders    Order[]
+}
+
+model Order {
+  id              String      @id @default(cuid())
+  date            DateTime    @default(now())
+  customerId      String?
+  customerName    String
+  customerEmail   String?
+  customerPhone   String?
+  customerAddress String?
+  salesChannel    String
+  status          String      @default("DRAFT")
+  tags            String?
+  paymentMethod   String?
+  totalAmount     Decimal     @default(0)
+  giftCardCode    String?
+  giftCardDiscount Decimal    @default(0)
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  customer        Customer?   @relation(fields: [customerId], references: [id])
+  items           OrderItem[]
+  giftCard        GiftCard?   @relation(fields: [giftCardCode], references: [code])
+}
+
+model OrderItem {
+  id               String  @id @default(cuid())
+  orderId          String
+  productVariantId String
+  quantity         Int
+  unitPrice        Decimal
+  costPriceAtSale  Decimal
+  lineTotal        Decimal
+  
+  order          Order          @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productVariant ProductVariant @relation(fields: [productVariantId], references: [id])
+}
+
+model Expense {
+  id          String   @id @default(cuid())
+  date        DateTime @default(now())
+  amount      Decimal
+  category    String
+  description String
+  productId   String?
+  invoiceUrl  String?
+  createdAt   DateTime @default(now())
+
+  product Product? @relation(fields: [productId], references: [id])
+}
+
+model GiftCard {
+  id                String    @id @default(cuid())
+  code              String    @unique
+  initialAmount     Decimal
+  remainingAmount   Decimal
+  status            String    @default("ACTIVE")
+  purchaseOrderId   String?
+  purchasedBy       String?
+  purchasedByName   String?
+  purchasedByEmail  String?
+  purchasedByPhone  String?
+  recipientName     String?
+  recipientEmail    String?
+  expirationDate    DateTime?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  usedInOrders      Order[]
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

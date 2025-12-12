@@ -1,0 +1,3830 @@
+{
+  "products": [
+    {
+      "id": "cmj1x4fgg0019ba3phn7ewucd",
+      "name": "Justau - AM - Bleu métallisé",
+      "category": "Justaucorps",
+      "sku": "1403B",
+      "isActive": true,
+      "createdAt": "2025-12-11T20:56:14.656Z",
+      "updatedAt": "2025-12-11T21:03:32.364Z",
+      "variants": [
+        {
+          "id": "cmj1x57qw001bba3pj733s8ox",
+          "productId": "cmj1x4fgg0019ba3phn7ewucd",
+          "size": "36",
+          "sellingPrice": "99",
+          "costPrice": "70.55",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T20:56:51.320Z",
+          "updatedAt": "2025-12-11T22:27:03.080Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1x6iso001cba3pwgkls0fv",
+      "name": "Justau - AM - noir métallisé ",
+      "category": "Justaucorps",
+      "sku": "1403N",
+      "isActive": true,
+      "createdAt": "2025-12-11T20:57:52.297Z",
+      "updatedAt": "2025-12-11T21:03:29.309Z",
+      "variants": [
+        {
+          "id": "cmj1x733y001eba3pbixex6k0",
+          "productId": "cmj1x6iso001cba3pwgkls0fv",
+          "size": "36",
+          "sellingPrice": "99",
+          "costPrice": "70.55",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T20:58:18.622Z",
+          "updatedAt": "2025-12-11T22:31:40.546Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1xb0pk001gba3pnb4pup35",
+      "name": "Justau - SM - Rose",
+      "category": "Justaucorps",
+      "sku": "1432F",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:01:22.136Z",
+      "updatedAt": "2025-12-11T21:03:25.170Z",
+      "variants": [
+        {
+          "id": "cmj1xbjze001iba3pgc5im1pb",
+          "productId": "cmj1xb0pk001gba3pnb4pup35",
+          "size": "10 ans",
+          "sellingPrice": "99",
+          "costPrice": "70.55",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:01:47.114Z",
+          "updatedAt": "2025-12-11T22:42:05.740Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1xc466001jba3pq4wztjmg",
+      "name": "Justau - SM - bleu",
+      "category": "Justaucorps",
+      "sku": "1433E",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:02:13.278Z",
+      "updatedAt": "2025-12-11T21:03:21.503Z",
+      "variants": [
+        {
+          "id": "cmj1xckpf001lba3php1bnzzg",
+          "productId": "cmj1xc466001jba3pq4wztjmg",
+          "size": "10 ans",
+          "sellingPrice": "67",
+          "costPrice": "48.15",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:02:34.707Z",
+          "updatedAt": "2025-12-11T22:42:05.740Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1xd7c1001mba3pjbz89p4b",
+      "name": "Justaucorps AM - noir/blanc/stras",
+      "category": "Justaucorps",
+      "sku": "1447",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:03:04.034Z",
+      "updatedAt": "2025-12-11T21:03:18.344Z",
+      "variants": [
+        {
+          "id": "cmj1xebsm001oba3p32wbl3hu",
+          "productId": "cmj1xd7c1001mba3pjbz89p4b",
+          "size": "14 ans",
+          "sellingPrice": "116",
+          "costPrice": "83.1",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:03:56.470Z",
+          "updatedAt": "2025-12-11T22:25:04.981Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1xf3r3001pba3pto1ysqt2",
+      "name": "Justau - AM - violet intense",
+      "category": "Justaucorps",
+      "sku": "1454",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:04:32.703Z",
+      "updatedAt": "2025-12-11T21:04:32.703Z",
+      "variants": [
+        {
+          "id": "cmj1xfonr001rba3p3jatctxv",
+          "productId": "cmj1xf3r3001pba3pto1ysqt2",
+          "size": "36",
+          "sellingPrice": "111",
+          "costPrice": "76.5",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:04:59.800Z",
+          "updatedAt": "2025-12-11T22:33:01.170Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yc4v2001sba3ph1t8rq0x",
+      "name": "Justaucorps sans manche navy",
+      "category": "Justaucorps",
+      "sku": "1462",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:30:13.791Z",
+      "updatedAt": "2025-12-11T21:30:13.791Z",
+      "variants": [
+        {
+          "id": "cmj1ycsq6001uba3ptlejsy59",
+          "productId": "cmj1yc4v2001sba3ph1t8rq0x",
+          "size": "10 ans",
+          "sellingPrice": "68",
+          "costPrice": "44.1",
+          "stock": 1,
+          "minStock": 2,
+          "createdAt": "2025-12-11T21:30:44.719Z",
+          "updatedAt": "2025-12-11T22:49:43.514Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1ydjee001vba3pj3pfghln",
+      "name": "Justaucorps avec manche Navy",
+      "category": "Justaucorps",
+      "sku": "1464",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:31:19.287Z",
+      "updatedAt": "2025-12-11T21:31:19.287Z",
+      "variants": [
+        {
+          "id": "cmj1ye5pz001xba3ptv70hgsr",
+          "productId": "cmj1ydjee001vba3pj3pfghln",
+          "size": "38",
+          "sellingPrice": "82",
+          "costPrice": "58.45",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:31:48.215Z",
+          "updatedAt": "2025-12-11T21:31:48.215Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yeqgg001yba3pd6jiivt1",
+      "name": "Justaucorps sans manche violet/noir",
+      "category": "Justaucorps",
+      "sku": "1465",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:32:15.088Z",
+      "updatedAt": "2025-12-11T21:32:15.088Z",
+      "variants": [
+        {
+          "id": "cmj1yggh50022ba3puieh95kr",
+          "productId": "cmj1yeqgg001yba3pd6jiivt1",
+          "size": "14 ans",
+          "sellingPrice": "65",
+          "costPrice": "44",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:33:35.465Z",
+          "updatedAt": "2025-12-11T22:55:50.457Z"
+        },
+        {
+          "id": "cmj1yf8tj0020ba3pnp680e6a",
+          "productId": "cmj1yeqgg001yba3pd6jiivt1",
+          "size": "8 ans",
+          "sellingPrice": "62",
+          "costPrice": "44",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:32:38.887Z",
+          "updatedAt": "2025-12-11T21:32:38.887Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1ygx2t0023ba3p0hmfsupu",
+      "name": "Justaucorps - SM ",
+      "category": "Justaucorps",
+      "sku": "1479",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:33:56.982Z",
+      "updatedAt": "2025-12-11T21:33:56.982Z",
+      "variants": [
+        {
+          "id": "cmj1yhg1u0025ba3phra3svt3",
+          "productId": "cmj1ygx2t0023ba3p0hmfsupu",
+          "size": "12 ans",
+          "sellingPrice": "74",
+          "costPrice": "0",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:34:21.571Z",
+          "updatedAt": "2025-12-11T22:59:17.291Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yhwvb0026ba3pa4653sao",
+      "name": "Justaucorps avec manche noir/rose/strass",
+      "category": "Justaucorps",
+      "sku": "1490",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:34:43.368Z",
+      "updatedAt": "2025-12-11T21:34:43.368Z",
+      "variants": [
+        {
+          "id": "cmj1yifo70028ba3p5evpuuhq",
+          "productId": "cmj1yhwvb0026ba3pa4653sao",
+          "size": "36",
+          "sellingPrice": "98",
+          "costPrice": "69.7",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:35:07.736Z",
+          "updatedAt": "2025-12-11T21:35:07.736Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yiqu40029ba3p0a2t3hl0",
+      "name": "Justaucorps avec manche navy",
+      "category": "Justaucorps",
+      "sku": "1492 B",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:35:22.204Z",
+      "updatedAt": "2025-12-11T21:35:22.204Z",
+      "variants": [
+        {
+          "id": "cmj1yjmm0002bba3ptph7042o",
+          "productId": "cmj1yiqu40029ba3p0a2t3hl0",
+          "size": "12 ans",
+          "sellingPrice": "112",
+          "costPrice": "79.65",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:36:03.384Z",
+          "updatedAt": "2025-12-11T21:36:41.382Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yl1u0002cba3pqf4jiwfv",
+      "name": "Justaucorps sm vert",
+      "category": "Justaucorps",
+      "sku": "1497",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:37:09.769Z",
+      "updatedAt": "2025-12-11T21:37:09.769Z",
+      "variants": [
+        {
+          "id": "cmj1ylgnk002eba3p0n5j7irh",
+          "productId": "cmj1yl1u0002cba3pqf4jiwfv",
+          "size": "10 ans",
+          "sellingPrice": "61",
+          "costPrice": "44.1",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:37:28.977Z",
+          "updatedAt": "2025-12-11T22:49:43.514Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1ylsy8002fba3pjkrgrkfr",
+      "name": "Justaucorps sans manche rose/blanc ",
+      "category": "Justaucorps",
+      "sku": "1498",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:37:44.912Z",
+      "updatedAt": "2025-12-11T21:37:44.912Z",
+      "variants": [
+        {
+          "id": "cmj1ymadp002hba3py9fs2oqi",
+          "productId": "cmj1ylsy8002fba3pjkrgrkfr",
+          "size": "6 ans",
+          "sellingPrice": "64",
+          "costPrice": "45.4",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:38:07.501Z",
+          "updatedAt": "2025-12-11T21:38:07.501Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yn38m002iba3pf3fyzwvj",
+      "name": "Justau - AM - Bleu métallisé",
+      "category": "Justaucorps",
+      "sku": "1623 M",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:38:44.902Z",
+      "updatedAt": "2025-12-11T21:38:44.902Z",
+      "variants": [
+        {
+          "id": "cmj1yngrp002kba3p547hgfqy",
+          "productId": "cmj1yn38m002iba3pf3fyzwvj",
+          "size": "36",
+          "sellingPrice": "104",
+          "costPrice": "74.45",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:39:02.437Z",
+          "updatedAt": "2025-12-11T22:39:00.541Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1ynswy002lba3p4rzogrox",
+      "name": "Justaucorps - AM - Rouge",
+      "category": "Justaucorps",
+      "sku": "1683",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:39:18.178Z",
+      "updatedAt": "2025-12-11T21:39:18.178Z",
+      "variants": [
+        {
+          "id": "cmj1yohcv002nba3p5gntnjwt",
+          "productId": "cmj1ynswy002lba3p4rzogrox",
+          "size": "10 ans",
+          "sellingPrice": "115",
+          "costPrice": "81.2",
+          "stock": 3,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:39:49.855Z",
+          "updatedAt": "2025-12-11T21:39:49.855Z"
+        },
+        {
+          "id": "cmj1yow2h002pba3p8wiv5ct5",
+          "productId": "cmj1ynswy002lba3p4rzogrox",
+          "size": "12 ans",
+          "sellingPrice": "115",
+          "costPrice": "81.2",
+          "stock": 2,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:40:08.922Z",
+          "updatedAt": "2025-12-11T22:22:23.031Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1ypgn2002qba3piqxuxef5",
+      "name": "Justau - SM - Typ Bleu avec flammes et strass",
+      "category": "Justaucorps",
+      "sku": "1687 B",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:40:35.582Z",
+      "updatedAt": "2025-12-11T21:40:35.582Z",
+      "variants": [
+        {
+          "id": "cmj1ypz6c002sba3p0loeq24s",
+          "productId": "cmj1ypgn2002qba3piqxuxef5",
+          "size": "14 ans",
+          "sellingPrice": "67",
+          "costPrice": "48.05",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:40:59.604Z",
+          "updatedAt": "2025-12-11T22:25:04.981Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yqlce002tba3pbuhlh2wp",
+      "name": "Justaucorps - SM ",
+      "category": "Justaucorps",
+      "sku": "1698",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:41:28.335Z",
+      "updatedAt": "2025-12-11T21:41:28.335Z",
+      "variants": [
+        {
+          "id": "cmj1yr4k1002vba3p0bgkps9z",
+          "productId": "cmj1yqlce002tba3pbuhlh2wp",
+          "size": "14 ans",
+          "sellingPrice": "61",
+          "costPrice": "43.45",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:41:53.233Z",
+          "updatedAt": "2025-12-12T13:22:52.352Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yrffe002wba3po2a6ci94",
+      "name": "Justaucorps - SM ",
+      "category": "Justaucorps",
+      "sku": "1699",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:42:07.322Z",
+      "updatedAt": "2025-12-11T21:42:07.322Z",
+      "variants": [
+        {
+          "id": "cmj1ys2lm002yba3psgk16fng",
+          "productId": "cmj1yrffe002wba3po2a6ci94",
+          "size": "10 ans",
+          "sellingPrice": "85",
+          "costPrice": "54.55",
+          "stock": 3,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:42:37.354Z",
+          "updatedAt": "2025-12-11T21:42:37.354Z"
+        },
+        {
+          "id": "cmj1yscwp0030ba3pnnoh3t2p",
+          "productId": "cmj1yrffe002wba3po2a6ci94",
+          "size": "12 ans",
+          "sellingPrice": "85",
+          "costPrice": "54.55",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:42:50.713Z",
+          "updatedAt": "2025-12-12T13:14:39.398Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yt49k0031ba3p95aeuw3n",
+      "name": "Justaucorps avec manche cerise noir",
+      "category": "Justaucorps",
+      "sku": "6002",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:43:26.169Z",
+      "updatedAt": "2025-12-11T21:43:26.169Z",
+      "variants": [
+        {
+          "id": "cmj1ytvwy0033ba3pdna4yl4n",
+          "productId": "cmj1yt49k0031ba3p95aeuw3n",
+          "size": "14 ans",
+          "sellingPrice": "62",
+          "costPrice": "44.2",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:44:02.002Z",
+          "updatedAt": "2025-12-12T01:58:20.802Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yumv40034ba3p9q26gv71",
+      "name": "Shorty Hotpant",
+      "category": "Habits",
+      "sku": "3705/105",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:44:36.929Z",
+      "updatedAt": "2025-12-11T21:44:36.929Z",
+      "variants": [
+        {
+          "id": "cmj1yv5xj0036ba3plw03shg5",
+          "productId": "cmj1yumv40034ba3p9q26gv71",
+          "size": "10 ans",
+          "sellingPrice": "26",
+          "costPrice": "18.55",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:45:01.639Z",
+          "updatedAt": "2025-12-11T22:42:05.740Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yvvev0037ba3p3clksa31",
+      "name": "Short Agiva noir",
+      "category": "Habits",
+      "sku": "3772",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:45:34.663Z",
+      "updatedAt": "2025-12-11T21:45:34.663Z",
+      "variants": [
+        {
+          "id": "cmj1yxaw9003bba3p4q6zuf8m",
+          "productId": "cmj1yvvev0037ba3p3clksa31",
+          "size": "10 ans",
+          "sellingPrice": "30",
+          "costPrice": "13.65",
+          "stock": 5,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:46:41.385Z",
+          "updatedAt": "2025-12-11T22:51:58.708Z"
+        },
+        {
+          "id": "cmj1yxk2h003dba3pac7l1mvy",
+          "productId": "cmj1yvvev0037ba3p3clksa31",
+          "size": "12 ans",
+          "sellingPrice": "30",
+          "costPrice": "13.65",
+          "stock": 2,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:46:53.273Z",
+          "updatedAt": "2025-12-11T22:47:14.739Z"
+        },
+        {
+          "id": "cmj1yy0vv003fba3po4i3ehrp",
+          "productId": "cmj1yvvev0037ba3p3clksa31",
+          "size": "14 ans",
+          "sellingPrice": "30",
+          "costPrice": "13.65",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:47:15.067Z",
+          "updatedAt": "2025-12-11T22:30:00.302Z"
+        },
+        {
+          "id": "cmj1yymg1003hba3p89gk7af5",
+          "productId": "cmj1yvvev0037ba3p3clksa31",
+          "size": "36 - XS",
+          "sellingPrice": "34",
+          "costPrice": "13.65",
+          "stock": 0,
+          "minStock": 0,
+          "createdAt": "2025-12-11T21:47:43.009Z",
+          "updatedAt": "2025-12-12T13:20:50.430Z"
+        },
+        {
+          "id": "cmj1yywjv003jba3p074entxm",
+          "productId": "cmj1yvvev0037ba3p3clksa31",
+          "size": "38 - S",
+          "sellingPrice": "34",
+          "costPrice": "14.05",
+          "stock": 2,
+          "minStock": 0,
+          "createdAt": "2025-12-11T21:47:56.108Z",
+          "updatedAt": "2025-12-12T13:25:12.811Z"
+        },
+        {
+          "id": "cmj2wf525000mlgs8ivo80tgj",
+          "productId": "cmj1yvvev0037ba3p3clksa31",
+          "size": "40 - M",
+          "sellingPrice": "34",
+          "costPrice": "14.05",
+          "stock": 1,
+          "minStock": 0,
+          "createdAt": "2025-12-12T13:24:20.957Z",
+          "updatedAt": "2025-12-12T13:24:20.957Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1yzjqb003kba3p2jnyabiz",
+      "name": "Leggings Agiva noir",
+      "category": "Habits",
+      "sku": "3773",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:48:26.147Z",
+      "updatedAt": "2025-12-11T21:48:26.147Z",
+      "variants": [
+        {
+          "id": "cmj1z09zn003oba3p9gcg5x8n",
+          "productId": "cmj1yzjqb003kba3p2jnyabiz",
+          "size": "10 ans",
+          "sellingPrice": "35",
+          "costPrice": "13.05",
+          "stock": 8,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:49:00.179Z",
+          "updatedAt": "2025-12-11T21:49:00.179Z"
+        },
+        {
+          "id": "cmj1z0i87003qba3pg61jby3w",
+          "productId": "cmj1yzjqb003kba3p2jnyabiz",
+          "size": "12 ans",
+          "sellingPrice": "35",
+          "costPrice": "13.05",
+          "stock": 8,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:49:10.855Z",
+          "updatedAt": "2025-12-11T21:49:10.855Z"
+        },
+        {
+          "id": "cmj1z161f003sba3pjss07oe4",
+          "productId": "cmj1yzjqb003kba3p2jnyabiz",
+          "size": "14 ans",
+          "sellingPrice": "35",
+          "costPrice": "13.05",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:49:41.715Z",
+          "updatedAt": "2025-12-11T21:49:41.715Z"
+        },
+        {
+          "id": "cmj1yzwlx003mba3p5oats50i",
+          "productId": "cmj1yzjqb003kba3p2jnyabiz",
+          "size": "8 ans",
+          "sellingPrice": "35",
+          "costPrice": "13.05",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:48:42.837Z",
+          "updatedAt": "2025-12-11T21:48:42.837Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1z20vb003tba3pm8r4hu8c",
+      "name": "Short bleu",
+      "category": "Habits",
+      "sku": "3717 B",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:50:21.671Z",
+      "updatedAt": "2025-12-11T21:50:21.671Z",
+      "variants": [
+        {
+          "id": "cmj1z2bhb003vba3pr18jhjgw",
+          "productId": "cmj1z20vb003tba3pm8r4hu8c",
+          "size": "36",
+          "sellingPrice": "44",
+          "costPrice": "29.2",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:50:35.423Z",
+          "updatedAt": "2025-12-11T21:50:35.423Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1z3hvl003wba3puyfl6gyq",
+      "name": "Short violet",
+      "category": "Habits",
+      "sku": "3717 V",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:51:30.370Z",
+      "updatedAt": "2025-12-11T21:51:30.370Z",
+      "variants": [
+        {
+          "id": "cmj1z4293003yba3puwqyfph5",
+          "productId": "cmj1z3hvl003wba3puyfl6gyq",
+          "size": "14 ans",
+          "sellingPrice": "42",
+          "costPrice": "29.2",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:51:56.775Z",
+          "updatedAt": "2025-12-11T22:55:50.457Z"
+        },
+        {
+          "id": "cmj1z4h8t0040ba3p2ekniwvl",
+          "productId": "cmj1z3hvl003wba3puyfl6gyq",
+          "size": "36",
+          "sellingPrice": "44",
+          "costPrice": "29.2",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:52:16.206Z",
+          "updatedAt": "2025-12-11T22:39:00.541Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1z60ko0041ba3pnxqdkivj",
+      "name": "Brassière bleue",
+      "category": "Habits",
+      "sku": "9703 B",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:53:27.913Z",
+      "updatedAt": "2025-12-11T21:53:27.913Z",
+      "variants": [
+        {
+          "id": "cmj1z6u2f0043ba3pfqit2ykz",
+          "productId": "cmj1z60ko0041ba3pnxqdkivj",
+          "size": "36",
+          "sellingPrice": "48",
+          "costPrice": "32.65",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:54:06.136Z",
+          "updatedAt": "2025-12-11T22:53:47.294Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1z7l5i0044ba3pyfat4pyw",
+      "name": "Brassière violette",
+      "category": "Habits",
+      "sku": "9703 V",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:54:41.238Z",
+      "updatedAt": "2025-12-11T21:54:41.238Z",
+      "variants": [
+        {
+          "id": "cmj1z87vi0046ba3pw0cmj4zg",
+          "productId": "cmj1z7l5i0044ba3pyfat4pyw",
+          "size": "14 ans",
+          "sellingPrice": "46",
+          "costPrice": "32.65",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:55:10.686Z",
+          "updatedAt": "2025-12-11T21:55:10.686Z"
+        },
+        {
+          "id": "cmj1z8tkf0048ba3pfza6g3eh",
+          "productId": "cmj1z7l5i0044ba3pyfat4pyw",
+          "size": "36",
+          "sellingPrice": "48",
+          "costPrice": "32.65",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:55:38.800Z",
+          "updatedAt": "2025-12-11T22:39:00.541Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1z9gwp0049ba3pb4ow2n4d",
+      "name": "Brassière agiva blanche",
+      "category": "Habits",
+      "sku": "9790S",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:56:09.049Z",
+      "updatedAt": "2025-12-11T21:56:09.049Z",
+      "variants": [
+        {
+          "id": "cmj1za3u9004bba3py3e72ybj",
+          "productId": "cmj1z9gwp0049ba3pb4ow2n4d",
+          "size": "10 ans",
+          "sellingPrice": "42",
+          "costPrice": "33.1",
+          "stock": 1,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:56:38.769Z",
+          "updatedAt": "2025-12-11T22:46:14.566Z"
+        },
+        {
+          "id": "cmj1zaw66004dba3przhcq0ni",
+          "productId": "cmj1z9gwp0049ba3pb4ow2n4d",
+          "size": "12 ans",
+          "sellingPrice": "42",
+          "costPrice": "33.1",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:57:15.487Z",
+          "updatedAt": "2025-12-11T22:51:58.708Z"
+        },
+        {
+          "id": "cmj1zbdbc004fba3pcrmupfko",
+          "productId": "cmj1z9gwp0049ba3pb4ow2n4d",
+          "size": "36",
+          "sellingPrice": "46",
+          "costPrice": "34.1",
+          "stock": 0,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:57:37.704Z",
+          "updatedAt": "2025-12-11T22:39:00.541Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1zc9vh004gba3pgqgq5p6o",
+      "name": "Brassière agiva rose",
+      "category": "Habits",
+      "sku": "9790F",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:58:19.901Z",
+      "updatedAt": "2025-12-11T21:58:19.901Z",
+      "variants": [
+        {
+          "id": "cmj1zco2c004iba3peys56bpl",
+          "productId": "cmj1zc9vh004gba3pgqgq5p6o",
+          "size": "10 ans",
+          "sellingPrice": "42",
+          "costPrice": "33.1",
+          "stock": 2,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:58:38.293Z",
+          "updatedAt": "2025-12-11T21:58:38.293Z"
+        },
+        {
+          "id": "cmj1zd18z004kba3p3xstx38w",
+          "productId": "cmj1zc9vh004gba3pgqgq5p6o",
+          "size": "12 ans",
+          "sellingPrice": "42",
+          "costPrice": "33.1",
+          "stock": 2,
+          "minStock": 1,
+          "createdAt": "2025-12-11T21:58:55.380Z",
+          "updatedAt": "2025-12-11T21:58:55.380Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1zdvhb004lba3pf4i55fsa",
+      "name": "Gourdes - Atelier du Gymnaste",
+      "category": "Accessoires",
+      "sku": "G01",
+      "isActive": true,
+      "createdAt": "2025-12-11T21:59:34.560Z",
+      "updatedAt": "2025-12-11T21:59:34.560Z",
+      "variants": [
+        {
+          "id": "cmj1zemjl004nba3p8dnqnk36",
+          "productId": "cmj1zdvhb004lba3pf4i55fsa",
+          "size": "400 ml",
+          "sellingPrice": "18",
+          "costPrice": "6.42",
+          "stock": 42,
+          "minStock": 5,
+          "createdAt": "2025-12-11T22:00:09.633Z",
+          "updatedAt": "2025-12-11T23:24:08.519Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1zf1k2004oba3ph0cwkck1",
+      "name": "Trousses - Atelier du Gymnaste",
+      "category": "Accessoires",
+      "sku": "T01",
+      "isActive": true,
+      "createdAt": "2025-12-11T22:00:29.090Z",
+      "updatedAt": "2025-12-11T22:00:29.090Z",
+      "variants": [
+        {
+          "id": "cmj1zfm7t004qba3p3oz9tmix",
+          "productId": "cmj1zf1k2004oba3ph0cwkck1",
+          "size": "Standard",
+          "sellingPrice": "16",
+          "costPrice": "5.61",
+          "stock": 37,
+          "minStock": 5,
+          "createdAt": "2025-12-11T22:00:55.865Z",
+          "updatedAt": "2025-12-12T13:42:25.184Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj1zg8qj004rba3p8l6tuuli",
+      "name": "Autocollant - Atelier du Gymnaste",
+      "category": "Accessoires",
+      "sku": "A01",
+      "isActive": true,
+      "createdAt": "2025-12-11T22:01:25.051Z",
+      "updatedAt": "2025-12-11T22:01:25.051Z",
+      "variants": [
+        {
+          "id": "cmj1zgps0004tba3p5g187uga",
+          "productId": "cmj1zg8qj004rba3p8l6tuuli",
+          "size": "Version 1",
+          "sellingPrice": "1",
+          "costPrice": "0",
+          "stock": 42,
+          "minStock": 5,
+          "createdAt": "2025-12-11T22:01:47.137Z",
+          "updatedAt": "2025-12-12T00:54:30.274Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj21m263009kba3p82iic834",
+      "name": "Pantalon homme en noir",
+      "category": "Justaucorps H",
+      "sku": "1300 N",
+      "isActive": true,
+      "createdAt": "2025-12-11T23:01:55.707Z",
+      "updatedAt": "2025-12-11T23:01:55.707Z",
+      "variants": [
+        {
+          "id": "cmj21nifb009mba3p48fl0w2l",
+          "productId": "cmj21m263009kba3p82iic834",
+          "size": "L",
+          "sellingPrice": "93",
+          "costPrice": "65.8",
+          "stock": 0,
+          "minStock": 0,
+          "createdAt": "2025-12-11T23:03:03.432Z",
+          "updatedAt": "2025-12-11T23:04:50.764Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj21o383009nba3pil280sdb",
+      "name": "Justaucoprs Homme avec le printing A12",
+      "category": "Justaucorps H",
+      "sku": "8014 A12 ",
+      "isActive": true,
+      "createdAt": "2025-12-11T23:03:30.387Z",
+      "updatedAt": "2025-12-11T23:03:30.387Z",
+      "variants": [
+        {
+          "id": "cmj21owgn009pba3pxl48hgry",
+          "productId": "cmj21o383009nba3pil280sdb",
+          "size": "52",
+          "sellingPrice": "64",
+          "costPrice": "45.45",
+          "stock": 0,
+          "minStock": 0,
+          "createdAt": "2025-12-11T23:04:08.280Z",
+          "updatedAt": "2025-12-11T23:04:50.764Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj2wo7zp000wlgs8w3v550wb",
+      "name": "Legging en lycra molletonné noir",
+      "category": "Habits",
+      "sku": "3815",
+      "isActive": true,
+      "createdAt": "2025-12-12T13:31:24.661Z",
+      "updatedAt": "2025-12-12T13:31:24.661Z",
+      "variants": [
+        {
+          "id": "cmj2wsxy2000ylgs8lu2s893k",
+          "productId": "cmj2wo7zp000wlgs8w3v550wb",
+          "size": "38 - S",
+          "sellingPrice": "51",
+          "costPrice": "37.8",
+          "stock": 1,
+          "minStock": 0,
+          "createdAt": "2025-12-12T13:35:04.922Z",
+          "updatedAt": "2025-12-12T13:35:04.922Z"
+        }
+      ],
+      "expenses": []
+    },
+    {
+      "id": "cmj2wueba000zlgs8zrn7tz8g",
+      "name": "Veste cintrée AGIVA en lycra molletonné",
+      "category": "Habits",
+      "sku": "4610",
+      "isActive": true,
+      "createdAt": "2025-12-12T13:36:12.791Z",
+      "updatedAt": "2025-12-12T13:36:12.791Z",
+      "variants": [
+        {
+          "id": "cmj2wvm1b0011lgs8pshpc16i",
+          "productId": "cmj2wueba000zlgs8zrn7tz8g",
+          "size": "38 - S",
+          "sellingPrice": "85",
+          "costPrice": "58.9",
+          "stock": 1,
+          "minStock": 0,
+          "createdAt": "2025-12-12T13:37:09.455Z",
+          "updatedAt": "2025-12-12T13:37:09.455Z"
+        }
+      ],
+      "expenses": []
+    }
+  ],
+  "productVariants": [
+    {
+      "id": "cmj1x57qw001bba3pj733s8ox",
+      "productId": "cmj1x4fgg0019ba3phn7ewucd",
+      "size": "36",
+      "sellingPrice": "99",
+      "costPrice": "70.55",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T20:56:51.320Z",
+      "updatedAt": "2025-12-11T22:27:03.080Z"
+    },
+    {
+      "id": "cmj1x733y001eba3pbixex6k0",
+      "productId": "cmj1x6iso001cba3pwgkls0fv",
+      "size": "36",
+      "sellingPrice": "99",
+      "costPrice": "70.55",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T20:58:18.622Z",
+      "updatedAt": "2025-12-11T22:31:40.546Z"
+    },
+    {
+      "id": "cmj1xbjze001iba3pgc5im1pb",
+      "productId": "cmj1xb0pk001gba3pnb4pup35",
+      "size": "10 ans",
+      "sellingPrice": "99",
+      "costPrice": "70.55",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:01:47.114Z",
+      "updatedAt": "2025-12-11T22:42:05.740Z"
+    },
+    {
+      "id": "cmj1xckpf001lba3php1bnzzg",
+      "productId": "cmj1xc466001jba3pq4wztjmg",
+      "size": "10 ans",
+      "sellingPrice": "67",
+      "costPrice": "48.15",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:02:34.707Z",
+      "updatedAt": "2025-12-11T22:42:05.740Z"
+    },
+    {
+      "id": "cmj1xebsm001oba3p32wbl3hu",
+      "productId": "cmj1xd7c1001mba3pjbz89p4b",
+      "size": "14 ans",
+      "sellingPrice": "116",
+      "costPrice": "83.1",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:03:56.470Z",
+      "updatedAt": "2025-12-11T22:25:04.981Z"
+    },
+    {
+      "id": "cmj1xfonr001rba3p3jatctxv",
+      "productId": "cmj1xf3r3001pba3pto1ysqt2",
+      "size": "36",
+      "sellingPrice": "111",
+      "costPrice": "76.5",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:04:59.800Z",
+      "updatedAt": "2025-12-11T22:33:01.170Z"
+    },
+    {
+      "id": "cmj1ycsq6001uba3ptlejsy59",
+      "productId": "cmj1yc4v2001sba3ph1t8rq0x",
+      "size": "10 ans",
+      "sellingPrice": "68",
+      "costPrice": "44.1",
+      "stock": 1,
+      "minStock": 2,
+      "createdAt": "2025-12-11T21:30:44.719Z",
+      "updatedAt": "2025-12-11T22:49:43.514Z"
+    },
+    {
+      "id": "cmj1ye5pz001xba3ptv70hgsr",
+      "productId": "cmj1ydjee001vba3pj3pfghln",
+      "size": "38",
+      "sellingPrice": "82",
+      "costPrice": "58.45",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:31:48.215Z",
+      "updatedAt": "2025-12-11T21:31:48.215Z"
+    },
+    {
+      "id": "cmj1yf8tj0020ba3pnp680e6a",
+      "productId": "cmj1yeqgg001yba3pd6jiivt1",
+      "size": "8 ans",
+      "sellingPrice": "62",
+      "costPrice": "44",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:32:38.887Z",
+      "updatedAt": "2025-12-11T21:32:38.887Z"
+    },
+    {
+      "id": "cmj1yggh50022ba3puieh95kr",
+      "productId": "cmj1yeqgg001yba3pd6jiivt1",
+      "size": "14 ans",
+      "sellingPrice": "65",
+      "costPrice": "44",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:33:35.465Z",
+      "updatedAt": "2025-12-11T22:55:50.457Z"
+    },
+    {
+      "id": "cmj1yhg1u0025ba3phra3svt3",
+      "productId": "cmj1ygx2t0023ba3p0hmfsupu",
+      "size": "12 ans",
+      "sellingPrice": "74",
+      "costPrice": "0",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:34:21.571Z",
+      "updatedAt": "2025-12-11T22:59:17.291Z"
+    },
+    {
+      "id": "cmj1yifo70028ba3p5evpuuhq",
+      "productId": "cmj1yhwvb0026ba3pa4653sao",
+      "size": "36",
+      "sellingPrice": "98",
+      "costPrice": "69.7",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:35:07.736Z",
+      "updatedAt": "2025-12-11T21:35:07.736Z"
+    },
+    {
+      "id": "cmj1yjmm0002bba3ptph7042o",
+      "productId": "cmj1yiqu40029ba3p0a2t3hl0",
+      "size": "12 ans",
+      "sellingPrice": "112",
+      "costPrice": "79.65",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:36:03.384Z",
+      "updatedAt": "2025-12-11T21:36:41.382Z"
+    },
+    {
+      "id": "cmj1ylgnk002eba3p0n5j7irh",
+      "productId": "cmj1yl1u0002cba3pqf4jiwfv",
+      "size": "10 ans",
+      "sellingPrice": "61",
+      "costPrice": "44.1",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:37:28.977Z",
+      "updatedAt": "2025-12-11T22:49:43.514Z"
+    },
+    {
+      "id": "cmj1ymadp002hba3py9fs2oqi",
+      "productId": "cmj1ylsy8002fba3pjkrgrkfr",
+      "size": "6 ans",
+      "sellingPrice": "64",
+      "costPrice": "45.4",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:38:07.501Z",
+      "updatedAt": "2025-12-11T21:38:07.501Z"
+    },
+    {
+      "id": "cmj1yngrp002kba3p547hgfqy",
+      "productId": "cmj1yn38m002iba3pf3fyzwvj",
+      "size": "36",
+      "sellingPrice": "104",
+      "costPrice": "74.45",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:39:02.437Z",
+      "updatedAt": "2025-12-11T22:39:00.541Z"
+    },
+    {
+      "id": "cmj1yohcv002nba3p5gntnjwt",
+      "productId": "cmj1ynswy002lba3p4rzogrox",
+      "size": "10 ans",
+      "sellingPrice": "115",
+      "costPrice": "81.2",
+      "stock": 3,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:39:49.855Z",
+      "updatedAt": "2025-12-11T21:39:49.855Z"
+    },
+    {
+      "id": "cmj1yow2h002pba3p8wiv5ct5",
+      "productId": "cmj1ynswy002lba3p4rzogrox",
+      "size": "12 ans",
+      "sellingPrice": "115",
+      "costPrice": "81.2",
+      "stock": 2,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:40:08.922Z",
+      "updatedAt": "2025-12-11T22:22:23.031Z"
+    },
+    {
+      "id": "cmj1ypz6c002sba3p0loeq24s",
+      "productId": "cmj1ypgn2002qba3piqxuxef5",
+      "size": "14 ans",
+      "sellingPrice": "67",
+      "costPrice": "48.05",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:40:59.604Z",
+      "updatedAt": "2025-12-11T22:25:04.981Z"
+    },
+    {
+      "id": "cmj1yr4k1002vba3p0bgkps9z",
+      "productId": "cmj1yqlce002tba3pbuhlh2wp",
+      "size": "14 ans",
+      "sellingPrice": "61",
+      "costPrice": "43.45",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:41:53.233Z",
+      "updatedAt": "2025-12-12T13:22:52.352Z"
+    },
+    {
+      "id": "cmj1ys2lm002yba3psgk16fng",
+      "productId": "cmj1yrffe002wba3po2a6ci94",
+      "size": "10 ans",
+      "sellingPrice": "85",
+      "costPrice": "54.55",
+      "stock": 3,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:42:37.354Z",
+      "updatedAt": "2025-12-11T21:42:37.354Z"
+    },
+    {
+      "id": "cmj1yscwp0030ba3pnnoh3t2p",
+      "productId": "cmj1yrffe002wba3po2a6ci94",
+      "size": "12 ans",
+      "sellingPrice": "85",
+      "costPrice": "54.55",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:42:50.713Z",
+      "updatedAt": "2025-12-12T13:14:39.398Z"
+    },
+    {
+      "id": "cmj1ytvwy0033ba3pdna4yl4n",
+      "productId": "cmj1yt49k0031ba3p95aeuw3n",
+      "size": "14 ans",
+      "sellingPrice": "62",
+      "costPrice": "44.2",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:44:02.002Z",
+      "updatedAt": "2025-12-12T01:58:20.802Z"
+    },
+    {
+      "id": "cmj1yv5xj0036ba3plw03shg5",
+      "productId": "cmj1yumv40034ba3p9q26gv71",
+      "size": "10 ans",
+      "sellingPrice": "26",
+      "costPrice": "18.55",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:45:01.639Z",
+      "updatedAt": "2025-12-11T22:42:05.740Z"
+    },
+    {
+      "id": "cmj1yxaw9003bba3p4q6zuf8m",
+      "productId": "cmj1yvvev0037ba3p3clksa31",
+      "size": "10 ans",
+      "sellingPrice": "30",
+      "costPrice": "13.65",
+      "stock": 5,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:46:41.385Z",
+      "updatedAt": "2025-12-11T22:51:58.708Z"
+    },
+    {
+      "id": "cmj1yxk2h003dba3pac7l1mvy",
+      "productId": "cmj1yvvev0037ba3p3clksa31",
+      "size": "12 ans",
+      "sellingPrice": "30",
+      "costPrice": "13.65",
+      "stock": 2,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:46:53.273Z",
+      "updatedAt": "2025-12-11T22:47:14.739Z"
+    },
+    {
+      "id": "cmj1yy0vv003fba3po4i3ehrp",
+      "productId": "cmj1yvvev0037ba3p3clksa31",
+      "size": "14 ans",
+      "sellingPrice": "30",
+      "costPrice": "13.65",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:47:15.067Z",
+      "updatedAt": "2025-12-11T22:30:00.302Z"
+    },
+    {
+      "id": "cmj1yymg1003hba3p89gk7af5",
+      "productId": "cmj1yvvev0037ba3p3clksa31",
+      "size": "36 - XS",
+      "sellingPrice": "34",
+      "costPrice": "13.65",
+      "stock": 0,
+      "minStock": 0,
+      "createdAt": "2025-12-11T21:47:43.009Z",
+      "updatedAt": "2025-12-12T13:20:50.430Z"
+    },
+    {
+      "id": "cmj1yywjv003jba3p074entxm",
+      "productId": "cmj1yvvev0037ba3p3clksa31",
+      "size": "38 - S",
+      "sellingPrice": "34",
+      "costPrice": "14.05",
+      "stock": 2,
+      "minStock": 0,
+      "createdAt": "2025-12-11T21:47:56.108Z",
+      "updatedAt": "2025-12-12T13:25:12.811Z"
+    },
+    {
+      "id": "cmj1yzwlx003mba3p5oats50i",
+      "productId": "cmj1yzjqb003kba3p2jnyabiz",
+      "size": "8 ans",
+      "sellingPrice": "35",
+      "costPrice": "13.05",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:48:42.837Z",
+      "updatedAt": "2025-12-11T21:48:42.837Z"
+    },
+    {
+      "id": "cmj1z09zn003oba3p9gcg5x8n",
+      "productId": "cmj1yzjqb003kba3p2jnyabiz",
+      "size": "10 ans",
+      "sellingPrice": "35",
+      "costPrice": "13.05",
+      "stock": 8,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:49:00.179Z",
+      "updatedAt": "2025-12-11T21:49:00.179Z"
+    },
+    {
+      "id": "cmj1z0i87003qba3pg61jby3w",
+      "productId": "cmj1yzjqb003kba3p2jnyabiz",
+      "size": "12 ans",
+      "sellingPrice": "35",
+      "costPrice": "13.05",
+      "stock": 8,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:49:10.855Z",
+      "updatedAt": "2025-12-11T21:49:10.855Z"
+    },
+    {
+      "id": "cmj1z161f003sba3pjss07oe4",
+      "productId": "cmj1yzjqb003kba3p2jnyabiz",
+      "size": "14 ans",
+      "sellingPrice": "35",
+      "costPrice": "13.05",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:49:41.715Z",
+      "updatedAt": "2025-12-11T21:49:41.715Z"
+    },
+    {
+      "id": "cmj1z2bhb003vba3pr18jhjgw",
+      "productId": "cmj1z20vb003tba3pm8r4hu8c",
+      "size": "36",
+      "sellingPrice": "44",
+      "costPrice": "29.2",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:50:35.423Z",
+      "updatedAt": "2025-12-11T21:50:35.423Z"
+    },
+    {
+      "id": "cmj1z4293003yba3puwqyfph5",
+      "productId": "cmj1z3hvl003wba3puyfl6gyq",
+      "size": "14 ans",
+      "sellingPrice": "42",
+      "costPrice": "29.2",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:51:56.775Z",
+      "updatedAt": "2025-12-11T22:55:50.457Z"
+    },
+    {
+      "id": "cmj1z4h8t0040ba3p2ekniwvl",
+      "productId": "cmj1z3hvl003wba3puyfl6gyq",
+      "size": "36",
+      "sellingPrice": "44",
+      "costPrice": "29.2",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:52:16.206Z",
+      "updatedAt": "2025-12-11T22:39:00.541Z"
+    },
+    {
+      "id": "cmj1z6u2f0043ba3pfqit2ykz",
+      "productId": "cmj1z60ko0041ba3pnxqdkivj",
+      "size": "36",
+      "sellingPrice": "48",
+      "costPrice": "32.65",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:54:06.136Z",
+      "updatedAt": "2025-12-11T22:53:47.294Z"
+    },
+    {
+      "id": "cmj1z87vi0046ba3pw0cmj4zg",
+      "productId": "cmj1z7l5i0044ba3pyfat4pyw",
+      "size": "14 ans",
+      "sellingPrice": "46",
+      "costPrice": "32.65",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:55:10.686Z",
+      "updatedAt": "2025-12-11T21:55:10.686Z"
+    },
+    {
+      "id": "cmj1z8tkf0048ba3pfza6g3eh",
+      "productId": "cmj1z7l5i0044ba3pyfat4pyw",
+      "size": "36",
+      "sellingPrice": "48",
+      "costPrice": "32.65",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:55:38.800Z",
+      "updatedAt": "2025-12-11T22:39:00.541Z"
+    },
+    {
+      "id": "cmj1za3u9004bba3py3e72ybj",
+      "productId": "cmj1z9gwp0049ba3pb4ow2n4d",
+      "size": "10 ans",
+      "sellingPrice": "42",
+      "costPrice": "33.1",
+      "stock": 1,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:56:38.769Z",
+      "updatedAt": "2025-12-11T22:46:14.566Z"
+    },
+    {
+      "id": "cmj1zaw66004dba3przhcq0ni",
+      "productId": "cmj1z9gwp0049ba3pb4ow2n4d",
+      "size": "12 ans",
+      "sellingPrice": "42",
+      "costPrice": "33.1",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:57:15.487Z",
+      "updatedAt": "2025-12-11T22:51:58.708Z"
+    },
+    {
+      "id": "cmj1zbdbc004fba3pcrmupfko",
+      "productId": "cmj1z9gwp0049ba3pb4ow2n4d",
+      "size": "36",
+      "sellingPrice": "46",
+      "costPrice": "34.1",
+      "stock": 0,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:57:37.704Z",
+      "updatedAt": "2025-12-11T22:39:00.541Z"
+    },
+    {
+      "id": "cmj1zco2c004iba3peys56bpl",
+      "productId": "cmj1zc9vh004gba3pgqgq5p6o",
+      "size": "10 ans",
+      "sellingPrice": "42",
+      "costPrice": "33.1",
+      "stock": 2,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:58:38.293Z",
+      "updatedAt": "2025-12-11T21:58:38.293Z"
+    },
+    {
+      "id": "cmj1zd18z004kba3p3xstx38w",
+      "productId": "cmj1zc9vh004gba3pgqgq5p6o",
+      "size": "12 ans",
+      "sellingPrice": "42",
+      "costPrice": "33.1",
+      "stock": 2,
+      "minStock": 1,
+      "createdAt": "2025-12-11T21:58:55.380Z",
+      "updatedAt": "2025-12-11T21:58:55.380Z"
+    },
+    {
+      "id": "cmj1zemjl004nba3p8dnqnk36",
+      "productId": "cmj1zdvhb004lba3pf4i55fsa",
+      "size": "400 ml",
+      "sellingPrice": "18",
+      "costPrice": "6.42",
+      "stock": 42,
+      "minStock": 5,
+      "createdAt": "2025-12-11T22:00:09.633Z",
+      "updatedAt": "2025-12-11T23:24:08.519Z"
+    },
+    {
+      "id": "cmj1zfm7t004qba3p3oz9tmix",
+      "productId": "cmj1zf1k2004oba3ph0cwkck1",
+      "size": "Standard",
+      "sellingPrice": "16",
+      "costPrice": "5.61",
+      "stock": 37,
+      "minStock": 5,
+      "createdAt": "2025-12-11T22:00:55.865Z",
+      "updatedAt": "2025-12-12T13:42:25.184Z"
+    },
+    {
+      "id": "cmj1zgps0004tba3p5g187uga",
+      "productId": "cmj1zg8qj004rba3p8l6tuuli",
+      "size": "Version 1",
+      "sellingPrice": "1",
+      "costPrice": "0",
+      "stock": 42,
+      "minStock": 5,
+      "createdAt": "2025-12-11T22:01:47.137Z",
+      "updatedAt": "2025-12-12T00:54:30.274Z"
+    },
+    {
+      "id": "cmj21nifb009mba3p48fl0w2l",
+      "productId": "cmj21m263009kba3p82iic834",
+      "size": "L",
+      "sellingPrice": "93",
+      "costPrice": "65.8",
+      "stock": 0,
+      "minStock": 0,
+      "createdAt": "2025-12-11T23:03:03.432Z",
+      "updatedAt": "2025-12-11T23:04:50.764Z"
+    },
+    {
+      "id": "cmj21owgn009pba3pxl48hgry",
+      "productId": "cmj21o383009nba3pil280sdb",
+      "size": "52",
+      "sellingPrice": "64",
+      "costPrice": "45.45",
+      "stock": 0,
+      "minStock": 0,
+      "createdAt": "2025-12-11T23:04:08.280Z",
+      "updatedAt": "2025-12-11T23:04:50.764Z"
+    },
+    {
+      "id": "cmj2wf525000mlgs8ivo80tgj",
+      "productId": "cmj1yvvev0037ba3p3clksa31",
+      "size": "40 - M",
+      "sellingPrice": "34",
+      "costPrice": "14.05",
+      "stock": 1,
+      "minStock": 0,
+      "createdAt": "2025-12-12T13:24:20.957Z",
+      "updatedAt": "2025-12-12T13:24:20.957Z"
+    },
+    {
+      "id": "cmj2wsxy2000ylgs8lu2s893k",
+      "productId": "cmj2wo7zp000wlgs8w3v550wb",
+      "size": "38 - S",
+      "sellingPrice": "51",
+      "costPrice": "37.8",
+      "stock": 1,
+      "minStock": 0,
+      "createdAt": "2025-12-12T13:35:04.922Z",
+      "updatedAt": "2025-12-12T13:35:04.922Z"
+    },
+    {
+      "id": "cmj2wvm1b0011lgs8pshpc16i",
+      "productId": "cmj2wueba000zlgs8zrn7tz8g",
+      "size": "38 - S",
+      "sellingPrice": "85",
+      "costPrice": "58.9",
+      "stock": 1,
+      "minStock": 0,
+      "createdAt": "2025-12-12T13:37:09.455Z",
+      "updatedAt": "2025-12-12T13:37:09.455Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cmj1zhyoq004uba3pvie44txu",
+      "name": "Demircan Esin",
+      "email": "emidogan@hotmail.com",
+      "phone": "076 430 12 81",
+      "address": null,
+      "createdAt": "2025-12-11T22:02:45.338Z",
+      "updatedAt": "2025-12-11T22:02:45.338Z"
+    },
+    {
+      "id": "cmj1zncw80057ba3p6ib62poe",
+      "name": "Schir Lola",
+      "email": "margaux.schir@bluewin.ch",
+      "phone": "079 916 09 59",
+      "address": null,
+      "createdAt": "2025-12-11T22:06:57.032Z",
+      "updatedAt": "2025-12-11T22:06:57.032Z"
+    },
+    {
+      "id": "cmj1zuaur005fba3pufi8o8j5",
+      "name": "Cardoso Giulia",
+      "email": "elo.ribet@hotmail.com",
+      "phone": "079 669 13 97 ",
+      "address": null,
+      "createdAt": "2025-12-11T22:12:20.980Z",
+      "updatedAt": "2025-12-11T22:12:20.980Z"
+    },
+    {
+      "id": "cmj1zwmtj005nba3pgyjwrgzd",
+      "name": "Minotti Francesca",
+      "email": "maria.aguilar.ba@gmail.com",
+      "phone": "079 157 99 57",
+      "address": null,
+      "createdAt": "2025-12-11T22:14:09.800Z",
+      "updatedAt": "2025-12-11T22:14:09.800Z"
+    },
+    {
+      "id": "cmj1zzig1005uba3poxd5djox",
+      "name": "Jaccoud Vicky",
+      "email": "nathalie.wenger@gmail.com",
+      "phone": "079 288 20 82",
+      "address": null,
+      "createdAt": "2025-12-11T22:16:24.097Z",
+      "updatedAt": "2025-12-11T22:16:24.097Z"
+    },
+    {
+      "id": "cmj202blr0062ba3p40um6ocq",
+      "name": "Schmid Alicia",
+      "email": "sandy.mosimann@gmail.com",
+      "phone": "079 506 06 16",
+      "address": null,
+      "createdAt": "2025-12-11T22:18:35.199Z",
+      "updatedAt": "2025-12-11T22:18:35.199Z"
+    },
+    {
+      "id": "cmj204gf60068ba3pr5a8lm52",
+      "name": "Stalder Liv & Mara",
+      "email": null,
+      "phone": "079 378 78 57",
+      "address": null,
+      "createdAt": "2025-12-11T22:20:14.754Z",
+      "updatedAt": "2025-12-11T22:20:14.754Z"
+    },
+    {
+      "id": "cmj20892s006fba3pfw9z1yh0",
+      "name": "Bourgeois Nathalie",
+      "email": "nathalie.bourgeois@windowslive.com",
+      "phone": "079 459 33 52",
+      "address": null,
+      "createdAt": "2025-12-11T22:23:11.861Z",
+      "updatedAt": "2025-12-11T22:52:48.477Z"
+    },
+    {
+      "id": "cmj20c9h4006nba3pahhgdw8s",
+      "name": "Musetti Sarah",
+      "email": "musettisarah@gmail.com",
+      "phone": "079 718 74 45",
+      "address": null,
+      "createdAt": "2025-12-11T22:26:19.000Z",
+      "updatedAt": "2025-12-11T22:26:19.000Z"
+    },
+    {
+      "id": "cmj20dy8x006tba3pr88gavyw",
+      "name": "Ravazoula Marguerita (Eva)",
+      "email": null,
+      "phone": "078 870 11 46",
+      "address": null,
+      "createdAt": "2025-12-11T22:27:37.761Z",
+      "updatedAt": "2025-12-11T22:27:37.761Z"
+    },
+    {
+      "id": "cmj20f907006zba3pzgpb7ide",
+      "name": "Timion Aélia",
+      "email": "sophgaillard@hotmail.com",
+      "phone": "079 678 19 89",
+      "address": null,
+      "createdAt": "2025-12-11T22:28:38.359Z",
+      "updatedAt": "2025-12-11T22:28:38.359Z"
+    },
+    {
+      "id": "cmj20hwjk0076ba3p8r034f3l",
+      "name": "Musetti Daria",
+      "email": "daria.musetti@gmail.com",
+      "phone": "079 372 99 95",
+      "address": null,
+      "createdAt": "2025-12-11T22:30:42.176Z",
+      "updatedAt": "2025-12-11T22:30:42.176Z"
+    },
+    {
+      "id": "cmj20jsfd007bba3phlmdmhal",
+      "name": "Schuepbach Keira",
+      "email": "pf25jby@eduvaud.ch",
+      "phone": "078 611 64 35",
+      "address": null,
+      "createdAt": "2025-12-11T22:32:10.153Z",
+      "updatedAt": "2025-12-12T13:40:35.384Z"
+    },
+    {
+      "id": "cmj20lm9u007gba3p5ajgvcls",
+      "name": "Holzmann Alison",
+      "email": "alisonholzmann@gmail.com",
+      "phone": "079 120 34 04",
+      "address": null,
+      "createdAt": "2025-12-11T22:33:35.491Z",
+      "updatedAt": "2025-12-11T22:33:35.491Z"
+    },
+    {
+      "id": "cmj20nalr007lba3p0kahwmy8",
+      "name": "Di Santolo Tatiana ",
+      "email": "tatidisa@gmail.com",
+      "phone": "076 275 94 98",
+      "address": null,
+      "createdAt": "2025-12-11T22:34:53.679Z",
+      "updatedAt": "2025-12-11T22:34:53.679Z"
+    },
+    {
+      "id": "cmj20u3ou007uba3puti9au34",
+      "name": "Koller Ksenia",
+      "email": "Koller.jelena@gmail.com",
+      "phone": "079 193 89 69",
+      "address": null,
+      "createdAt": "2025-12-11T22:40:11.310Z",
+      "updatedAt": "2025-12-11T22:40:11.310Z"
+    },
+    {
+      "id": "cmj20ylhz0081ba3p0vvz8g0u",
+      "name": "Cardoso Elodie",
+      "email": "elo.ribet@hotmail.com",
+      "phone": "079 669 13 97",
+      "address": null,
+      "createdAt": "2025-12-11T22:43:41.016Z",
+      "updatedAt": "2025-12-11T22:43:41.016Z"
+    },
+    {
+      "id": "cmj20zs0f0086ba3p4nevup5c",
+      "name": "Céline Friezas",
+      "email": null,
+      "phone": "076 429 79 11",
+      "address": null,
+      "createdAt": "2025-12-11T22:44:36.111Z",
+      "updatedAt": "2025-12-11T22:44:36.111Z"
+    },
+    {
+      "id": "cmj214brq008hba3pdetdvns9",
+      "name": "Gomes Charlie",
+      "email": "celia@s-f.ch",
+      "phone": "076 308 00 38",
+      "address": null,
+      "createdAt": "2025-12-11T22:48:08.343Z",
+      "updatedAt": "2025-12-11T22:48:08.343Z"
+    },
+    {
+      "id": "cmj217xz9008nba3p5jptoemd",
+      "name": "Rego Vanessa",
+      "email": "vanessa.rey19@hotmail.ch",
+      "phone": "076 324 49 69",
+      "address": null,
+      "createdAt": "2025-12-11T22:50:57.093Z",
+      "updatedAt": "2025-12-11T22:50:57.093Z"
+    },
+    {
+      "id": "cmj21c7v1008xba3p0gyueo66",
+      "name": "George Bogado",
+      "email": null,
+      "phone": "079 176 00 73",
+      "address": null,
+      "createdAt": "2025-12-11T22:54:16.525Z",
+      "updatedAt": "2025-12-11T22:54:16.525Z"
+    },
+    {
+      "id": "cmj21htck009fba3p3aptrxhe",
+      "name": "Zoé Barbezat",
+      "email": null,
+      "phone": "079 339 27 70",
+      "address": null,
+      "createdAt": "2025-12-11T22:58:37.653Z",
+      "updatedAt": "2025-12-11T22:58:37.653Z"
+    },
+    {
+      "id": "cmj21p8bs009qba3p0e7i7co9",
+      "name": "Fabian Urbano",
+      "email": null,
+      "phone": "079 650 97 75",
+      "address": null,
+      "createdAt": "2025-12-11T23:04:23.656Z",
+      "updatedAt": "2025-12-11T23:04:23.656Z"
+    },
+    {
+      "id": "cmj26cx6i000i12edbyvj0ugz",
+      "name": "Duygu Cordey",
+      "email": "duygu33@msn.com",
+      "phone": "079 616 94 95 ",
+      "address": null,
+      "createdAt": "2025-12-12T01:14:47.419Z",
+      "updatedAt": "2025-12-12T01:14:47.419Z"
+    },
+    {
+      "id": "cmj2vo9vs0008lgs8ys54sxs3",
+      "name": "Tombola - FSG Bussigny",
+      "email": "fsgbussigny@gmail.com",
+      "phone": null,
+      "address": null,
+      "createdAt": "2025-12-12T13:03:27.497Z",
+      "updatedAt": "2025-12-12T13:06:26.017Z"
+    },
+    {
+      "id": "cmj2widwe000rlgs8h934jxyk",
+      "name": "Zélie Rossier",
+      "email": null,
+      "phone": "078 693 91 98",
+      "address": null,
+      "createdAt": "2025-12-12T13:26:52.383Z",
+      "updatedAt": "2025-12-12T13:26:52.383Z"
+    },
+    {
+      "id": "cmj2wx0uo0012lgs85bu8t09e",
+      "name": "Schuepbach Sonia",
+      "email": "sonia.schuepbach@gmail.com",
+      "phone": null,
+      "address": null,
+      "createdAt": "2025-12-12T13:38:15.313Z",
+      "updatedAt": "2025-12-12T13:38:15.313Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "cmj1zjtff004wba3p3ugerlae",
+      "date": "2025-05-14T00:00:00.000Z",
+      "customerId": "cmj1zhyoq004uba3pvie44txu",
+      "customerName": "Demircan Esin",
+      "customerEmail": "emidogan@hotmail.com",
+      "customerPhone": "076 430 12 81",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Payer,Livrer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "72",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:04:11.836Z",
+      "updatedAt": "2025-12-11T22:04:11.926Z",
+      "items": [
+        {
+          "id": "cmj1zjtff004yba3plvps8sa3",
+          "orderId": "cmj1zjtff004wba3p3ugerlae",
+          "productVariantId": "cmj1yxk2h003dba3pac7l1mvy",
+          "quantity": 1,
+          "unitPrice": "30",
+          "costPriceAtSale": "13.65",
+          "lineTotal": "30"
+        },
+        {
+          "id": "cmj1zjtff004zba3p69tjy9ba",
+          "orderId": "cmj1zjtff004wba3p3ugerlae",
+          "productVariantId": "cmj1zaw66004dba3przhcq0ni",
+          "quantity": 1,
+          "unitPrice": "42",
+          "costPriceAtSale": "33.1",
+          "lineTotal": "42"
+        }
+      ]
+    },
+    {
+      "id": "cmj1zp9100059ba3pox0lilr2",
+      "date": "2025-05-14T00:00:00.000Z",
+      "customerId": "cmj1zncw80057ba3p6ib62poe",
+      "customerName": "Schir Lola",
+      "customerEmail": "margaux.schir@bluewin.ch",
+      "customerPhone": "079 916 09 59",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Payer,Livrer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "89",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:08:25.333Z",
+      "updatedAt": "2025-12-11T22:08:25.347Z",
+      "items": [
+        {
+          "id": "cmj1zp910005bba3p7h9hf980",
+          "orderId": "cmj1zp9100059ba3pox0lilr2",
+          "productVariantId": "cmj1yxaw9003bba3p4q6zuf8m",
+          "quantity": 1,
+          "unitPrice": "30",
+          "costPriceAtSale": "13.65",
+          "lineTotal": "30"
+        },
+        {
+          "id": "cmj1zp910005cba3pyjebfld6",
+          "orderId": "cmj1zp9100059ba3pox0lilr2",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 1,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "16"
+        },
+        {
+          "id": "cmj1zp910005dba3peqpfm05d",
+          "orderId": "cmj1zp9100059ba3pox0lilr2",
+          "productVariantId": "cmj1zgps0004tba3p5g187uga",
+          "quantity": 1,
+          "unitPrice": "1",
+          "costPriceAtSale": "0",
+          "lineTotal": "1"
+        },
+        {
+          "id": "cmj1zp910005eba3pckmsf3w3",
+          "orderId": "cmj1zp9100059ba3pox0lilr2",
+          "productVariantId": "cmj1zaw66004dba3przhcq0ni",
+          "quantity": 1,
+          "unitPrice": "42",
+          "costPriceAtSale": "33.1",
+          "lineTotal": "42"
+        }
+      ]
+    },
+    {
+      "id": "cmj1zvt96005hba3puc3wwk7i",
+      "date": "2025-05-14T00:00:00.000Z",
+      "customerId": "cmj1zuaur005fba3pufi8o8j5",
+      "customerName": "Cardoso Giulia",
+      "customerEmail": "elo.ribet@hotmail.com",
+      "customerPhone": "079 669 13 97 ",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "89",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:13:31.482Z",
+      "updatedAt": "2025-12-11T22:13:31.565Z",
+      "items": [
+        {
+          "id": "cmj1zvt96005jba3pkjtbgouh",
+          "orderId": "cmj1zvt96005hba3puc3wwk7i",
+          "productVariantId": "cmj1yxk2h003dba3pac7l1mvy",
+          "quantity": 1,
+          "unitPrice": "30",
+          "costPriceAtSale": "13.65",
+          "lineTotal": "30"
+        },
+        {
+          "id": "cmj1zvt96005kba3pbxn79078",
+          "orderId": "cmj1zvt96005hba3puc3wwk7i",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 1,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "16"
+        },
+        {
+          "id": "cmj1zvt96005lba3p25slxgkg",
+          "orderId": "cmj1zvt96005hba3puc3wwk7i",
+          "productVariantId": "cmj1zgps0004tba3p5g187uga",
+          "quantity": 1,
+          "unitPrice": "1",
+          "costPriceAtSale": "0",
+          "lineTotal": "1"
+        },
+        {
+          "id": "cmj1zvt96005mba3pjrsxhvmi",
+          "orderId": "cmj1zvt96005hba3puc3wwk7i",
+          "productVariantId": "cmj1zaw66004dba3przhcq0ni",
+          "quantity": 1,
+          "unitPrice": "42",
+          "costPriceAtSale": "33.1",
+          "lineTotal": "42"
+        }
+      ]
+    },
+    {
+      "id": "cmj1zz0jv005pba3pw581h211",
+      "date": "2025-05-14T00:00:00.000Z",
+      "customerId": "cmj1zwmtj005nba3pgyjwrgzd",
+      "customerName": "Minotti Francesca",
+      "customerEmail": "maria.aguilar.ba@gmail.com",
+      "customerPhone": "079 157 99 57",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "64",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:16:00.907Z",
+      "updatedAt": "2025-12-11T22:16:00.922Z",
+      "items": [
+        {
+          "id": "cmj1zz0jv005rba3pd78wfvsb",
+          "orderId": "cmj1zz0jv005pba3pw581h211",
+          "productVariantId": "cmj1zemjl004nba3p8dnqnk36",
+          "quantity": 1,
+          "unitPrice": "18",
+          "costPriceAtSale": "6.42",
+          "lineTotal": "18"
+        },
+        {
+          "id": "cmj1zz0jv005sba3pbkmc56ok",
+          "orderId": "cmj1zz0jv005pba3pw581h211",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 1,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "16"
+        },
+        {
+          "id": "cmj1zz0jv005tba3p6atamhi0",
+          "orderId": "cmj1zz0jv005pba3pw581h211",
+          "productVariantId": "cmj1yy0vv003fba3po4i3ehrp",
+          "quantity": 1,
+          "unitPrice": "30",
+          "costPriceAtSale": "13.65",
+          "lineTotal": "30"
+        }
+      ]
+    },
+    {
+      "id": "cmj2012kl005wba3px1lmdgo2",
+      "date": "2025-05-14T00:00:00.000Z",
+      "customerId": "cmj1zzig1005uba3poxd5djox",
+      "customerName": "Jaccoud Vicky",
+      "customerEmail": "nathalie.wenger@gmail.com",
+      "customerPhone": "079 288 20 82",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "62",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:17:36.837Z",
+      "updatedAt": "2025-12-11T22:17:36.851Z",
+      "items": [
+        {
+          "id": "cmj2012kl005yba3pqurrvomr",
+          "orderId": "cmj2012kl005wba3px1lmdgo2",
+          "productVariantId": "cmj1zgps0004tba3p5g187uga",
+          "quantity": 1,
+          "unitPrice": "1",
+          "costPriceAtSale": "0",
+          "lineTotal": "1"
+        },
+        {
+          "id": "cmj2012kl005zba3pje4oo83x",
+          "orderId": "cmj2012kl005wba3px1lmdgo2",
+          "productVariantId": "cmj1zemjl004nba3p8dnqnk36",
+          "quantity": 1,
+          "unitPrice": "18",
+          "costPriceAtSale": "6.42",
+          "lineTotal": "18"
+        },
+        {
+          "id": "cmj2012kl0060ba3pdo9u19r2",
+          "orderId": "cmj2012kl005wba3px1lmdgo2",
+          "productVariantId": "cmj1zaw66004dba3przhcq0ni",
+          "quantity": 1,
+          "unitPrice": "42",
+          "costPriceAtSale": "33.1",
+          "lineTotal": "42"
+        },
+        {
+          "id": "cmj2012kl0061ba3p6t50ktub",
+          "orderId": "cmj2012kl005wba3px1lmdgo2",
+          "productVariantId": "cmj1zgps0004tba3p5g187uga",
+          "quantity": 1,
+          "unitPrice": "1",
+          "costPriceAtSale": "0",
+          "lineTotal": "1"
+        }
+      ]
+    },
+    {
+      "id": "cmj203k5w0064ba3phvdeno2g",
+      "date": "2025-05-14T00:00:00.000Z",
+      "customerId": "cmj202blr0062ba3p40um6ocq",
+      "customerName": "Schmid Alicia",
+      "customerEmail": "sandy.mosimann@gmail.com",
+      "customerPhone": "079 506 06 16",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "92",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:19:32.948Z",
+      "updatedAt": "2025-12-11T22:19:32.963Z",
+      "items": [
+        {
+          "id": "cmj203k5w0066ba3pvz9170u9",
+          "orderId": "cmj203k5w0064ba3phvdeno2g",
+          "productVariantId": "cmj1yxk2h003dba3pac7l1mvy",
+          "quantity": 2,
+          "unitPrice": "30",
+          "costPriceAtSale": "13.65",
+          "lineTotal": "60"
+        },
+        {
+          "id": "cmj203k5w0067ba3p6yvvyxtg",
+          "orderId": "cmj203k5w0064ba3phvdeno2g",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 2,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "32"
+        }
+      ]
+    },
+    {
+      "id": "cmj2077e7006aba3pdws8zsme",
+      "date": "2025-05-14T00:00:00.000Z",
+      "customerId": "cmj204gf60068ba3pr5a8lm52",
+      "customerName": "Stalder Liv & Mara",
+      "customerEmail": null,
+      "customerPhone": "079 378 78 57",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "232",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:22:23.023Z",
+      "updatedAt": "2025-12-11T22:22:23.031Z",
+      "items": [
+        {
+          "id": "cmj2077e7006cba3pds3ty66x",
+          "orderId": "cmj2077e7006aba3pdws8zsme",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 2,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "32"
+        },
+        {
+          "id": "cmj2077e7006dba3pisv7dmat",
+          "orderId": "cmj2077e7006aba3pdws8zsme",
+          "productVariantId": "cmj1yscwp0030ba3pnnoh3t2p",
+          "quantity": 1,
+          "unitPrice": "85",
+          "costPriceAtSale": "54.55",
+          "lineTotal": "85"
+        },
+        {
+          "id": "cmj2077e7006eba3pxr4os7mb",
+          "orderId": "cmj2077e7006aba3pdws8zsme",
+          "productVariantId": "cmj1yow2h002pba3p8wiv5ct5",
+          "quantity": 1,
+          "unitPrice": "115",
+          "costPriceAtSale": "81.2",
+          "lineTotal": "115"
+        }
+      ]
+    },
+    {
+      "id": "cmj20aocs006hba3p1b0dgcf7",
+      "date": "2025-05-14T00:00:00.000Z",
+      "customerId": "cmj20892s006fba3pfw9z1yh0",
+      "customerName": "Bourgeois Jade",
+      "customerEmail": "nathalie.bourgeois@windowslive.com",
+      "customerPhone": "079 459 33 52",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "229",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:25:04.972Z",
+      "updatedAt": "2025-12-11T22:25:04.981Z",
+      "items": [
+        {
+          "id": "cmj20aocs006jba3pdy3a63it",
+          "orderId": "cmj20aocs006hba3p1b0dgcf7",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 1,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "16"
+        },
+        {
+          "id": "cmj20aocs006kba3pasn432m1",
+          "orderId": "cmj20aocs006hba3p1b0dgcf7",
+          "productVariantId": "cmj1xebsm001oba3p32wbl3hu",
+          "quantity": 1,
+          "unitPrice": "116",
+          "costPriceAtSale": "83.1",
+          "lineTotal": "116"
+        },
+        {
+          "id": "cmj20aocs006lba3pmneks2kz",
+          "orderId": "cmj20aocs006hba3p1b0dgcf7",
+          "productVariantId": "cmj1ypz6c002sba3p0loeq24s",
+          "quantity": 1,
+          "unitPrice": "67",
+          "costPriceAtSale": "48.05",
+          "lineTotal": "67"
+        },
+        {
+          "id": "cmj20aocs006mba3ph1rr8voy",
+          "orderId": "cmj20aocs006hba3p1b0dgcf7",
+          "productVariantId": "cmj1yy0vv003fba3po4i3ehrp",
+          "quantity": 1,
+          "unitPrice": "30",
+          "costPriceAtSale": "13.65",
+          "lineTotal": "30"
+        }
+      ]
+    },
+    {
+      "id": "cmj20d7hb006pba3pul7buhzy",
+      "date": "2025-05-14T00:00:00.000Z",
+      "customerId": "cmj20c9h4006nba3pahhgdw8s",
+      "customerName": "Musetti Sarah",
+      "customerEmail": "musettisarah@gmail.com",
+      "customerPhone": "079 718 74 45",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "115",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:27:03.071Z",
+      "updatedAt": "2025-12-11T22:27:03.080Z",
+      "items": [
+        {
+          "id": "cmj20d7hb006rba3pd4m1j66y",
+          "orderId": "cmj20d7hb006pba3pul7buhzy",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 1,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "16"
+        },
+        {
+          "id": "cmj20d7hb006sba3psq41t7ap",
+          "orderId": "cmj20d7hb006pba3pul7buhzy",
+          "productVariantId": "cmj1x57qw001bba3pj733s8ox",
+          "quantity": 1,
+          "unitPrice": "99",
+          "costPriceAtSale": "70.55",
+          "lineTotal": "99"
+        }
+      ]
+    },
+    {
+      "id": "cmj20ek8s006vba3p21hn9iyf",
+      "date": "2025-05-14T00:00:00.000Z",
+      "customerId": "cmj20dy8x006tba3pr88gavyw",
+      "customerName": "Ravazoula Marguerita (Eva)",
+      "customerEmail": null,
+      "customerPhone": "078 870 11 46",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "34",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:28:06.269Z",
+      "updatedAt": "2025-12-11T22:28:06.282Z",
+      "items": [
+        {
+          "id": "cmj20ek8s006xba3pwk96rev1",
+          "orderId": "cmj20ek8s006vba3p21hn9iyf",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 2,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "32"
+        },
+        {
+          "id": "cmj20ek8s006yba3pqvo70om6",
+          "orderId": "cmj20ek8s006vba3p21hn9iyf",
+          "productVariantId": "cmj1zgps0004tba3p5g187uga",
+          "quantity": 2,
+          "unitPrice": "1",
+          "costPriceAtSale": "0",
+          "lineTotal": "2"
+        }
+      ]
+    },
+    {
+      "id": "cmj20h0850071ba3pr2ptazlv",
+      "date": "2025-05-14T00:00:00.000Z",
+      "customerId": "cmj20f907006zba3pzgpb7ide",
+      "customerName": "Timion Aélia",
+      "customerEmail": "sophgaillard@hotmail.com",
+      "customerPhone": "079 678 19 89",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "CASH",
+      "totalAmount": "50",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:30:00.294Z",
+      "updatedAt": "2025-12-11T22:30:00.302Z",
+      "items": [
+        {
+          "id": "cmj20h0850073ba3p8pwbwkbw",
+          "orderId": "cmj20h0850071ba3pr2ptazlv",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 1,
+          "unitPrice": "19",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "19"
+        },
+        {
+          "id": "cmj20h0850074ba3p8imcu3if",
+          "orderId": "cmj20h0850071ba3pr2ptazlv",
+          "productVariantId": "cmj1zgps0004tba3p5g187uga",
+          "quantity": 1,
+          "unitPrice": "1",
+          "costPriceAtSale": "0",
+          "lineTotal": "1"
+        },
+        {
+          "id": "cmj20h0850075ba3proeafhre",
+          "orderId": "cmj20h0850071ba3pr2ptazlv",
+          "productVariantId": "cmj1yy0vv003fba3po4i3ehrp",
+          "quantity": 1,
+          "unitPrice": "30",
+          "costPriceAtSale": "13.65",
+          "lineTotal": "30"
+        }
+      ]
+    },
+    {
+      "id": "cmj20j5kp0078ba3p7yskky17",
+      "date": "2025-05-15T00:00:00.000Z",
+      "customerId": "cmj20hwjk0076ba3p8r034f3l",
+      "customerName": "Musetti Daria",
+      "customerEmail": "daria.musetti@gmail.com",
+      "customerPhone": "079 372 99 95",
+      "customerAddress": null,
+      "salesChannel": "AUTRE",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "CASH",
+      "totalAmount": "99",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:31:40.537Z",
+      "updatedAt": "2025-12-11T22:31:40.546Z",
+      "items": [
+        {
+          "id": "cmj20j5kp007aba3pv770ft2l",
+          "orderId": "cmj20j5kp0078ba3p7yskky17",
+          "productVariantId": "cmj1x733y001eba3pbixex6k0",
+          "quantity": 1,
+          "unitPrice": "99",
+          "costPriceAtSale": "70.55",
+          "lineTotal": "99"
+        }
+      ]
+    },
+    {
+      "id": "cmj20kvs5007dba3p1tgntuvr",
+      "date": "2025-05-17T00:00:00.000Z",
+      "customerId": "cmj20jsfd007bba3phlmdmhal",
+      "customerName": "Schüpbach Keira",
+      "customerEmail": "pf25jby@eduvaud.ch",
+      "customerPhone": "078 611 64 35",
+      "customerAddress": null,
+      "salesChannel": "AUTRE",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "CASH",
+      "totalAmount": "111",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:33:01.158Z",
+      "updatedAt": "2025-12-11T22:33:01.170Z",
+      "items": [
+        {
+          "id": "cmj20kvs6007fba3p3vhhbunj",
+          "orderId": "cmj20kvs5007dba3p1tgntuvr",
+          "productVariantId": "cmj1xfonr001rba3p3jatctxv",
+          "quantity": 1,
+          "unitPrice": "111",
+          "costPriceAtSale": "76.5",
+          "lineTotal": "111"
+        }
+      ]
+    },
+    {
+      "id": "cmj20sl2s007nba3p9bwbuzsl",
+      "date": "2025-05-18T00:00:00.000Z",
+      "customerId": "cmj20nalr007lba3p0kahwmy8",
+      "customerName": "Di Santolo Tatiana ",
+      "customerEmail": "tatidisa@gmail.com",
+      "customerPhone": "076 275 94 98",
+      "customerAddress": null,
+      "salesChannel": "AUTRE",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "258",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:39:00.532Z",
+      "updatedAt": "2025-12-11T22:39:00.541Z",
+      "items": [
+        {
+          "id": "cmj20sl2s007pba3px7inx565",
+          "orderId": "cmj20sl2s007nba3p9bwbuzsl",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 1,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "16"
+        },
+        {
+          "id": "cmj20sl2s007qba3pgfxdfzim",
+          "orderId": "cmj20sl2s007nba3p9bwbuzsl",
+          "productVariantId": "cmj1yngrp002kba3p547hgfqy",
+          "quantity": 1,
+          "unitPrice": "104",
+          "costPriceAtSale": "74.45",
+          "lineTotal": "104"
+        },
+        {
+          "id": "cmj20sl2s007rba3p4hsir0sr",
+          "orderId": "cmj20sl2s007nba3p9bwbuzsl",
+          "productVariantId": "cmj1zbdbc004fba3pcrmupfko",
+          "quantity": 1,
+          "unitPrice": "46",
+          "costPriceAtSale": "34.1",
+          "lineTotal": "46"
+        },
+        {
+          "id": "cmj20sl2s007sba3pq3t4o8g2",
+          "orderId": "cmj20sl2s007nba3p9bwbuzsl",
+          "productVariantId": "cmj1z8tkf0048ba3pfza6g3eh",
+          "quantity": 1,
+          "unitPrice": "48",
+          "costPriceAtSale": "32.65",
+          "lineTotal": "48"
+        },
+        {
+          "id": "cmj20sl2s007tba3pftjl2jb2",
+          "orderId": "cmj20sl2s007nba3p9bwbuzsl",
+          "productVariantId": "cmj1z4h8t0040ba3p2ekniwvl",
+          "quantity": 1,
+          "unitPrice": "44",
+          "costPriceAtSale": "29.2",
+          "lineTotal": "44"
+        }
+      ]
+    },
+    {
+      "id": "cmj20wjz7007wba3pqk1q6qcb",
+      "date": "2025-05-16T00:00:00.000Z",
+      "customerId": "cmj20u3ou007uba3puti9au34",
+      "customerName": "Koller Ksenia",
+      "customerEmail": "Koller.jelena@gmail.com",
+      "customerPhone": "079 193 89 69",
+      "customerAddress": null,
+      "salesChannel": "SITE",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer,Précommander",
+      "paymentMethod": "TWINT",
+      "totalAmount": "192",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:42:05.731Z",
+      "updatedAt": "2025-12-11T22:42:05.740Z",
+      "items": [
+        {
+          "id": "cmj20wjz7007yba3ph10mlotc",
+          "orderId": "cmj20wjz7007wba3pqk1q6qcb",
+          "productVariantId": "cmj1yv5xj0036ba3plw03shg5",
+          "quantity": 1,
+          "unitPrice": "26",
+          "costPriceAtSale": "18.55",
+          "lineTotal": "26"
+        },
+        {
+          "id": "cmj20wjz7007zba3pvv5o3dzs",
+          "orderId": "cmj20wjz7007wba3pqk1q6qcb",
+          "productVariantId": "cmj1xckpf001lba3php1bnzzg",
+          "quantity": 1,
+          "unitPrice": "67",
+          "costPriceAtSale": "48.15",
+          "lineTotal": "67"
+        },
+        {
+          "id": "cmj20wjz70080ba3pnyw70gl7",
+          "orderId": "cmj20wjz7007wba3pqk1q6qcb",
+          "productVariantId": "cmj1xbjze001iba3pgc5im1pb",
+          "quantity": 1,
+          "unitPrice": "99",
+          "costPriceAtSale": "70.55",
+          "lineTotal": "99"
+        }
+      ]
+    },
+    {
+      "id": "cmj20zdin0083ba3phf66srke",
+      "date": "2025-06-08T00:00:00.000Z",
+      "customerId": "cmj20ylhz0081ba3p0vvz8g0u",
+      "customerName": "Cardoso Elodie",
+      "customerEmail": "elo.ribet@hotmail.com",
+      "customerPhone": "079 669 13 97",
+      "customerAddress": null,
+      "salesChannel": "AUTRE",
+      "status": "CONFIRMED",
+      "tags": "Payer,Livrer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "16",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:44:17.327Z",
+      "updatedAt": "2025-12-11T22:44:17.339Z",
+      "items": [
+        {
+          "id": "cmj20zdin0085ba3pfnjjf9kz",
+          "orderId": "cmj20zdin0083ba3phf66srke",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 1,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "16"
+        }
+      ]
+    },
+    {
+      "id": "cmj211vyx0088ba3pa0iudbfb",
+      "date": "2025-07-08T00:00:00.000Z",
+      "customerId": "cmj20zs0f0086ba3p4nevup5c",
+      "customerName": "Céline Friezas",
+      "customerEmail": null,
+      "customerPhone": "076 429 79 11",
+      "customerAddress": null,
+      "salesChannel": "AUTRE",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "75",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:46:14.553Z",
+      "updatedAt": "2025-12-11T22:46:14.566Z",
+      "items": [
+        {
+          "id": "cmj211vyx008aba3pn8vbjyin",
+          "orderId": "cmj211vyx0088ba3pa0iudbfb",
+          "productVariantId": "cmj1yxaw9003bba3p4q6zuf8m",
+          "quantity": 1,
+          "unitPrice": "30",
+          "costPriceAtSale": "13.65",
+          "lineTotal": "30"
+        },
+        {
+          "id": "cmj211vyx008bba3pduoqvz58",
+          "orderId": "cmj211vyx0088ba3pa0iudbfb",
+          "productVariantId": "cmj1za3u9004bba3py3e72ybj",
+          "quantity": 1,
+          "unitPrice": "45",
+          "costPriceAtSale": "33.1",
+          "lineTotal": "45"
+        }
+      ]
+    },
+    {
+      "id": "cmj2136ed008dba3pt4csohd0",
+      "date": "2025-09-15T00:00:00.000Z",
+      "customerId": "cmj1zzig1005uba3poxd5djox",
+      "customerName": "Jaccoud Vicky",
+      "customerEmail": "nathalie.wenger@gmail.com",
+      "customerPhone": "079 288 20 82",
+      "customerAddress": null,
+      "salesChannel": "AUTRE",
+      "status": "CONFIRMED",
+      "tags": "Payer,Livrer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "76",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:47:14.725Z",
+      "updatedAt": "2025-12-11T22:47:14.739Z",
+      "items": [
+        {
+          "id": "cmj2136ed008fba3pkkm7xwlc",
+          "orderId": "cmj2136ed008dba3pt4csohd0",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 1,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "16"
+        },
+        {
+          "id": "cmj2136ed008gba3plvk5xiv1",
+          "orderId": "cmj2136ed008dba3pt4csohd0",
+          "productVariantId": "cmj1yxk2h003dba3pac7l1mvy",
+          "quantity": 2,
+          "unitPrice": "30",
+          "costPriceAtSale": "13.65",
+          "lineTotal": "60"
+        }
+      ]
+    },
+    {
+      "id": "cmj216d75008jba3p9jpqwwak",
+      "date": "2025-10-29T00:00:00.000Z",
+      "customerId": "cmj214brq008hba3pdetdvns9",
+      "customerName": "Gomes Charlie",
+      "customerEmail": "celia@s-f.ch",
+      "customerPhone": "076 308 00 38",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer,Précommander",
+      "paymentMethod": "TWINT",
+      "totalAmount": "129",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:49:43.506Z",
+      "updatedAt": "2025-12-11T22:49:43.514Z",
+      "items": [
+        {
+          "id": "cmj216d75008lba3paujlrdzj",
+          "orderId": "cmj216d75008jba3p9jpqwwak",
+          "productVariantId": "cmj1ycsq6001uba3ptlejsy59",
+          "quantity": 1,
+          "unitPrice": "68",
+          "costPriceAtSale": "44.1",
+          "lineTotal": "68"
+        },
+        {
+          "id": "cmj216d75008mba3p80cjzofh",
+          "orderId": "cmj216d75008jba3p9jpqwwak",
+          "productVariantId": "cmj1ylgnk002eba3p0n5j7irh",
+          "quantity": 1,
+          "unitPrice": "61",
+          "costPriceAtSale": "44.1",
+          "lineTotal": "61"
+        }
+      ]
+    },
+    {
+      "id": "cmj2199ie008pba3pd5krszpl",
+      "date": "2025-10-28T00:00:00.000Z",
+      "customerId": "cmj217xz9008nba3p5jptoemd",
+      "customerName": "Rego Vanessa",
+      "customerEmail": "vanessa.rey19@hotmail.ch",
+      "customerPhone": "076 324 49 69",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "72",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:51:58.695Z",
+      "updatedAt": "2025-12-11T22:51:58.708Z",
+      "items": [
+        {
+          "id": "cmj2199if008rba3phqc7h6o1",
+          "orderId": "cmj2199ie008pba3pd5krszpl",
+          "productVariantId": "cmj1zaw66004dba3przhcq0ni",
+          "quantity": 1,
+          "unitPrice": "42",
+          "costPriceAtSale": "33.1",
+          "lineTotal": "42"
+        },
+        {
+          "id": "cmj2199if008sba3pv46wsuaq",
+          "orderId": "cmj2199ie008pba3pd5krszpl",
+          "productVariantId": "cmj1yxaw9003bba3p4q6zuf8m",
+          "quantity": 1,
+          "unitPrice": "30",
+          "costPriceAtSale": "13.65",
+          "lineTotal": "30"
+        }
+      ]
+    },
+    {
+      "id": "cmj21blar008uba3p2so9a600",
+      "date": "2025-10-28T00:00:00.000Z",
+      "customerId": "cmj20892s006fba3pfw9z1yh0",
+      "customerName": "Bourgeois Nathalie",
+      "customerEmail": "nathalie.bourgeois@windowslive.com",
+      "customerPhone": "079 459 33 52",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer,Précommander",
+      "paymentMethod": "TWINT",
+      "totalAmount": "48",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:53:47.284Z",
+      "updatedAt": "2025-12-11T22:53:47.294Z",
+      "items": [
+        {
+          "id": "cmj21blar008wba3pe9r49l67",
+          "orderId": "cmj21blar008uba3p2so9a600",
+          "productVariantId": "cmj1z6u2f0043ba3pfqit2ykz",
+          "quantity": 1,
+          "unitPrice": "48",
+          "costPriceAtSale": "32.65",
+          "lineTotal": "48"
+        }
+      ]
+    },
+    {
+      "id": "cmj21e8bv008zba3pq7vzeg3t",
+      "date": "2025-10-28T00:00:00.000Z",
+      "customerId": "cmj21c7v1008xba3p0gyueo66",
+      "customerName": "George Bogado",
+      "customerEmail": null,
+      "customerPhone": "079 176 00 73",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer,Précommander",
+      "paymentMethod": "CASH",
+      "totalAmount": "110",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:55:50.443Z",
+      "updatedAt": "2025-12-11T22:55:50.457Z",
+      "items": [
+        {
+          "id": "cmj21e8bv0091ba3p31w6qyne",
+          "orderId": "cmj21e8bv008zba3pq7vzeg3t",
+          "productVariantId": "cmj1yggh50022ba3puieh95kr",
+          "quantity": 1,
+          "unitPrice": "65",
+          "costPriceAtSale": "44",
+          "lineTotal": "65"
+        },
+        {
+          "id": "cmj21e8bv0092ba3pnf0n0rxm",
+          "orderId": "cmj21e8bv008zba3pq7vzeg3t",
+          "productVariantId": "cmj1z4293003yba3puwqyfph5",
+          "quantity": 1,
+          "unitPrice": "45",
+          "costPriceAtSale": "29.2",
+          "lineTotal": "45"
+        }
+      ]
+    },
+    {
+      "id": "cmj21flrp0094ba3peaxylajh",
+      "date": "2025-10-28T00:00:00.000Z",
+      "customerId": "cmj1zuaur005fba3pufi8o8j5",
+      "customerName": "Cardoso Giulia",
+      "customerEmail": "elo.ribet@hotmail.com",
+      "customerPhone": "079 669 13 97 ",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Payer,Livrer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "16",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:56:54.518Z",
+      "updatedAt": "2025-12-11T22:56:54.531Z",
+      "items": [
+        {
+          "id": "cmj21flrp0096ba3pk8ij7gs5",
+          "orderId": "cmj21flrp0094ba3peaxylajh",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 1,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "16"
+        }
+      ]
+    },
+    {
+      "id": "cmj21g8ny0098ba3ph1ldg8v4",
+      "date": "2025-10-28T00:00:00.000Z",
+      "customerId": "cmj20nalr007lba3p0kahwmy8",
+      "customerName": "Di Santolo Tatiana ",
+      "customerEmail": "tatidisa@gmail.com",
+      "customerPhone": "076 275 94 98",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "3",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:57:24.190Z",
+      "updatedAt": "2025-12-11T22:57:24.201Z",
+      "items": [
+        {
+          "id": "cmj21g8ny009aba3pou7fekxa",
+          "orderId": "cmj21g8ny0098ba3ph1ldg8v4",
+          "productVariantId": "cmj1zgps0004tba3p5g187uga",
+          "quantity": 1,
+          "unitPrice": "3",
+          "costPriceAtSale": "0",
+          "lineTotal": "3"
+        }
+      ]
+    },
+    {
+      "id": "cmj21inxe009hba3plhqr18x4",
+      "date": "2025-10-28T00:00:00.000Z",
+      "customerId": "cmj21htck009fba3p3aptrxhe",
+      "customerName": "Zoé Barbezat",
+      "customerEmail": null,
+      "customerPhone": "079 339 27 70",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer,Précommander",
+      "paymentMethod": "TWINT",
+      "totalAmount": "74",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T22:59:17.283Z",
+      "updatedAt": "2025-12-11T22:59:17.291Z",
+      "items": [
+        {
+          "id": "cmj21inxf009jba3ppse07bj9",
+          "orderId": "cmj21inxe009hba3plhqr18x4",
+          "productVariantId": "cmj1yhg1u0025ba3phra3svt3",
+          "quantity": 1,
+          "unitPrice": "74",
+          "costPriceAtSale": "0",
+          "lineTotal": "74"
+        }
+      ]
+    },
+    {
+      "id": "cmj21pt6a009sba3pp18jhp6y",
+      "date": "2025-10-28T00:00:00.000Z",
+      "customerId": "cmj21p8bs009qba3p0e7i7co9",
+      "customerName": "Fabian Urbano",
+      "customerEmail": null,
+      "customerPhone": "079 650 97 75",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer,Précommander",
+      "paymentMethod": "TWINT",
+      "totalAmount": "157",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-11T23:04:50.675Z",
+      "updatedAt": "2025-12-11T23:04:50.764Z",
+      "items": [
+        {
+          "id": "cmj21pt6b009uba3p98v9p17q",
+          "orderId": "cmj21pt6a009sba3pp18jhp6y",
+          "productVariantId": "cmj21nifb009mba3p48fl0w2l",
+          "quantity": 1,
+          "unitPrice": "93",
+          "costPriceAtSale": "65.8",
+          "lineTotal": "93"
+        },
+        {
+          "id": "cmj21pt6b009vba3pij3tt2md",
+          "orderId": "cmj21pt6a009sba3pp18jhp6y",
+          "productVariantId": "cmj21owgn009pba3pxl48hgry",
+          "quantity": 1,
+          "unitPrice": "64",
+          "costPriceAtSale": "45.45",
+          "lineTotal": "64"
+        }
+      ]
+    },
+    {
+      "id": "cmj2s3c2s0003lgs8fv545xow",
+      "date": "2025-12-12T11:23:11.715Z",
+      "customerId": "cmj26cx6i000i12edbyvj0ugz",
+      "customerName": "Duygu Cordey",
+      "customerEmail": "duygu33@msn.com",
+      "customerPhone": "079 616 94 95 ",
+      "customerAddress": null,
+      "salesChannel": "AUTRE",
+      "status": "CONFIRMED",
+      "tags": "Bon cadeau: GIFT-6LW5Y748",
+      "paymentMethod": "TWINT",
+      "totalAmount": "50",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-12T11:23:11.716Z",
+      "updatedAt": "2025-12-12T11:23:11.716Z",
+      "items": []
+    },
+    {
+      "id": "cmj2s3r670007lgs8nasfaucw",
+      "date": "2025-12-12T11:23:31.279Z",
+      "customerId": "cmj26cx6i000i12edbyvj0ugz",
+      "customerName": "Duygu Cordey",
+      "customerEmail": "duygu33@msn.com",
+      "customerPhone": "079 616 94 95 ",
+      "customerAddress": null,
+      "salesChannel": "AUTRE",
+      "status": "CONFIRMED",
+      "tags": "Bon cadeau: GIFT-WJ4WSYXJ",
+      "paymentMethod": "TWINT",
+      "totalAmount": "50",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-12T11:23:31.279Z",
+      "updatedAt": "2025-12-12T11:23:31.279Z",
+      "items": []
+    },
+    {
+      "id": "cmj2w2o6w000ilgs82v73drsh",
+      "date": "2025-12-09T00:00:00.000Z",
+      "customerId": "cmj1zncw80057ba3p6ib62poe",
+      "customerName": "Schir Lola",
+      "customerEmail": "margaux.schir@bluewin.ch",
+      "customerPhone": "079 916 09 59",
+      "customerAddress": null,
+      "salesChannel": "AUTRE",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "85",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-12T13:14:39.224Z",
+      "updatedAt": "2025-12-12T13:14:39.398Z",
+      "items": [
+        {
+          "id": "cmj2w2o6w000klgs8512s91n4",
+          "orderId": "cmj2w2o6w000ilgs82v73drsh",
+          "productVariantId": "cmj1yscwp0030ba3pnnoh3t2p",
+          "quantity": 1,
+          "unitPrice": "85",
+          "costPriceAtSale": "54.55",
+          "lineTotal": "85"
+        }
+      ]
+    },
+    {
+      "id": "cmj2wg901000olgs8zdjg1daq",
+      "date": "2025-05-18T00:00:00.000Z",
+      "customerId": "cmj20lm9u007gba3p5ajgvcls",
+      "customerName": "Holzmann Alison",
+      "customerEmail": "alisonholzmann@gmail.com",
+      "customerPhone": "079 120 34 04",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "CONFIRMED",
+      "tags": "Livrer,Payer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "34",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-12T13:25:12.721Z",
+      "updatedAt": "2025-12-12T13:25:12.811Z",
+      "items": [
+        {
+          "id": "cmj2wg901000qlgs8hear41ai",
+          "orderId": "cmj2wg901000olgs8zdjg1daq",
+          "productVariantId": "cmj1yywjv003jba3p074entxm",
+          "quantity": 1,
+          "unitPrice": "34",
+          "costPriceAtSale": "14.05",
+          "lineTotal": "34"
+        }
+      ]
+    },
+    {
+      "id": "cmj2witu5000tlgs8ftfuixol",
+      "date": "2025-10-28T00:00:00.000Z",
+      "customerId": "cmj2widwe000rlgs8h934jxyk",
+      "customerName": "Zélie Rossier",
+      "customerEmail": null,
+      "customerPhone": "078 693 91 98",
+      "customerAddress": null,
+      "salesChannel": "STAND",
+      "status": "DRAFT",
+      "tags": "Payer,Précommander",
+      "paymentMethod": "TWINT",
+      "totalAmount": "34",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-12T13:27:13.037Z",
+      "updatedAt": "2025-12-12T13:27:13.037Z",
+      "items": [
+        {
+          "id": "cmj2witu5000vlgs87w2mwukf",
+          "orderId": "cmj2witu5000tlgs8ftfuixol",
+          "productVariantId": "cmj2wf525000mlgs8ivo80tgj",
+          "quantity": 1,
+          "unitPrice": "34",
+          "costPriceAtSale": "14.05",
+          "lineTotal": "34"
+        }
+      ]
+    },
+    {
+      "id": "cmj2wy88r0014lgs830v7dv6z",
+      "date": "2025-11-16T00:00:00.000Z",
+      "customerId": "cmj2wx0uo0012lgs85bu8t09e",
+      "customerName": "Schuepbach Sonia",
+      "customerEmail": "sonia.schuepbach@gmail.com",
+      "customerPhone": null,
+      "customerAddress": null,
+      "salesChannel": "SITE",
+      "status": "DRAFT",
+      "tags": "Précommander",
+      "paymentMethod": "TWINT",
+      "totalAmount": "136",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-12T13:39:11.548Z",
+      "updatedAt": "2025-12-12T13:39:11.548Z",
+      "items": [
+        {
+          "id": "cmj2wy88r0016lgs84vv7pcqf",
+          "orderId": "cmj2wy88r0014lgs830v7dv6z",
+          "productVariantId": "cmj2wsxy2000ylgs8lu2s893k",
+          "quantity": 1,
+          "unitPrice": "51",
+          "costPriceAtSale": "37.8",
+          "lineTotal": "51"
+        },
+        {
+          "id": "cmj2wy88s0017lgs85b97lpze",
+          "orderId": "cmj2wy88r0014lgs830v7dv6z",
+          "productVariantId": "cmj2wvm1b0011lgs8pshpc16i",
+          "quantity": 1,
+          "unitPrice": "85",
+          "costPriceAtSale": "58.9",
+          "lineTotal": "85"
+        }
+      ]
+    },
+    {
+      "id": "cmj2x2dkz0019lgs8x84krxgk",
+      "date": "2025-12-03T00:00:00.000Z",
+      "customerId": "cmj1zzig1005uba3poxd5djox",
+      "customerName": "Jaccoud Vicky",
+      "customerEmail": "nathalie.wenger@gmail.com",
+      "customerPhone": "079 288 20 82",
+      "customerAddress": null,
+      "salesChannel": "AUTRE",
+      "status": "CONFIRMED",
+      "tags": "Payer,Livrer",
+      "paymentMethod": "TWINT",
+      "totalAmount": "16",
+      "giftCardCode": null,
+      "giftCardDiscount": "0",
+      "createdAt": "2025-12-12T13:42:25.091Z",
+      "updatedAt": "2025-12-12T13:42:25.184Z",
+      "items": [
+        {
+          "id": "cmj2x2dkz001blgs813e26gww",
+          "orderId": "cmj2x2dkz0019lgs8x84krxgk",
+          "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+          "quantity": 1,
+          "unitPrice": "16",
+          "costPriceAtSale": "5.61",
+          "lineTotal": "16"
+        }
+      ]
+    }
+  ],
+  "orderItems": [
+    {
+      "id": "cmj1zjtff004yba3plvps8sa3",
+      "orderId": "cmj1zjtff004wba3p3ugerlae",
+      "productVariantId": "cmj1yxk2h003dba3pac7l1mvy",
+      "quantity": 1,
+      "unitPrice": "30",
+      "costPriceAtSale": "13.65",
+      "lineTotal": "30"
+    },
+    {
+      "id": "cmj1zjtff004zba3p69tjy9ba",
+      "orderId": "cmj1zjtff004wba3p3ugerlae",
+      "productVariantId": "cmj1zaw66004dba3przhcq0ni",
+      "quantity": 1,
+      "unitPrice": "42",
+      "costPriceAtSale": "33.1",
+      "lineTotal": "42"
+    },
+    {
+      "id": "cmj1zp910005bba3p7h9hf980",
+      "orderId": "cmj1zp9100059ba3pox0lilr2",
+      "productVariantId": "cmj1yxaw9003bba3p4q6zuf8m",
+      "quantity": 1,
+      "unitPrice": "30",
+      "costPriceAtSale": "13.65",
+      "lineTotal": "30"
+    },
+    {
+      "id": "cmj1zp910005cba3pyjebfld6",
+      "orderId": "cmj1zp9100059ba3pox0lilr2",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 1,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "16"
+    },
+    {
+      "id": "cmj1zp910005dba3peqpfm05d",
+      "orderId": "cmj1zp9100059ba3pox0lilr2",
+      "productVariantId": "cmj1zgps0004tba3p5g187uga",
+      "quantity": 1,
+      "unitPrice": "1",
+      "costPriceAtSale": "0",
+      "lineTotal": "1"
+    },
+    {
+      "id": "cmj1zp910005eba3pckmsf3w3",
+      "orderId": "cmj1zp9100059ba3pox0lilr2",
+      "productVariantId": "cmj1zaw66004dba3przhcq0ni",
+      "quantity": 1,
+      "unitPrice": "42",
+      "costPriceAtSale": "33.1",
+      "lineTotal": "42"
+    },
+    {
+      "id": "cmj1zvt96005jba3pkjtbgouh",
+      "orderId": "cmj1zvt96005hba3puc3wwk7i",
+      "productVariantId": "cmj1yxk2h003dba3pac7l1mvy",
+      "quantity": 1,
+      "unitPrice": "30",
+      "costPriceAtSale": "13.65",
+      "lineTotal": "30"
+    },
+    {
+      "id": "cmj1zvt96005kba3pbxn79078",
+      "orderId": "cmj1zvt96005hba3puc3wwk7i",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 1,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "16"
+    },
+    {
+      "id": "cmj1zvt96005lba3p25slxgkg",
+      "orderId": "cmj1zvt96005hba3puc3wwk7i",
+      "productVariantId": "cmj1zgps0004tba3p5g187uga",
+      "quantity": 1,
+      "unitPrice": "1",
+      "costPriceAtSale": "0",
+      "lineTotal": "1"
+    },
+    {
+      "id": "cmj1zvt96005mba3pjrsxhvmi",
+      "orderId": "cmj1zvt96005hba3puc3wwk7i",
+      "productVariantId": "cmj1zaw66004dba3przhcq0ni",
+      "quantity": 1,
+      "unitPrice": "42",
+      "costPriceAtSale": "33.1",
+      "lineTotal": "42"
+    },
+    {
+      "id": "cmj1zz0jv005rba3pd78wfvsb",
+      "orderId": "cmj1zz0jv005pba3pw581h211",
+      "productVariantId": "cmj1zemjl004nba3p8dnqnk36",
+      "quantity": 1,
+      "unitPrice": "18",
+      "costPriceAtSale": "6.42",
+      "lineTotal": "18"
+    },
+    {
+      "id": "cmj1zz0jv005sba3pbkmc56ok",
+      "orderId": "cmj1zz0jv005pba3pw581h211",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 1,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "16"
+    },
+    {
+      "id": "cmj1zz0jv005tba3p6atamhi0",
+      "orderId": "cmj1zz0jv005pba3pw581h211",
+      "productVariantId": "cmj1yy0vv003fba3po4i3ehrp",
+      "quantity": 1,
+      "unitPrice": "30",
+      "costPriceAtSale": "13.65",
+      "lineTotal": "30"
+    },
+    {
+      "id": "cmj2012kl005yba3pqurrvomr",
+      "orderId": "cmj2012kl005wba3px1lmdgo2",
+      "productVariantId": "cmj1zgps0004tba3p5g187uga",
+      "quantity": 1,
+      "unitPrice": "1",
+      "costPriceAtSale": "0",
+      "lineTotal": "1"
+    },
+    {
+      "id": "cmj2012kl005zba3pje4oo83x",
+      "orderId": "cmj2012kl005wba3px1lmdgo2",
+      "productVariantId": "cmj1zemjl004nba3p8dnqnk36",
+      "quantity": 1,
+      "unitPrice": "18",
+      "costPriceAtSale": "6.42",
+      "lineTotal": "18"
+    },
+    {
+      "id": "cmj2012kl0060ba3pdo9u19r2",
+      "orderId": "cmj2012kl005wba3px1lmdgo2",
+      "productVariantId": "cmj1zaw66004dba3przhcq0ni",
+      "quantity": 1,
+      "unitPrice": "42",
+      "costPriceAtSale": "33.1",
+      "lineTotal": "42"
+    },
+    {
+      "id": "cmj2012kl0061ba3p6t50ktub",
+      "orderId": "cmj2012kl005wba3px1lmdgo2",
+      "productVariantId": "cmj1zgps0004tba3p5g187uga",
+      "quantity": 1,
+      "unitPrice": "1",
+      "costPriceAtSale": "0",
+      "lineTotal": "1"
+    },
+    {
+      "id": "cmj203k5w0066ba3pvz9170u9",
+      "orderId": "cmj203k5w0064ba3phvdeno2g",
+      "productVariantId": "cmj1yxk2h003dba3pac7l1mvy",
+      "quantity": 2,
+      "unitPrice": "30",
+      "costPriceAtSale": "13.65",
+      "lineTotal": "60"
+    },
+    {
+      "id": "cmj203k5w0067ba3p6yvvyxtg",
+      "orderId": "cmj203k5w0064ba3phvdeno2g",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 2,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "32"
+    },
+    {
+      "id": "cmj2077e7006cba3pds3ty66x",
+      "orderId": "cmj2077e7006aba3pdws8zsme",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 2,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "32"
+    },
+    {
+      "id": "cmj2077e7006dba3pisv7dmat",
+      "orderId": "cmj2077e7006aba3pdws8zsme",
+      "productVariantId": "cmj1yscwp0030ba3pnnoh3t2p",
+      "quantity": 1,
+      "unitPrice": "85",
+      "costPriceAtSale": "54.55",
+      "lineTotal": "85"
+    },
+    {
+      "id": "cmj2077e7006eba3pxr4os7mb",
+      "orderId": "cmj2077e7006aba3pdws8zsme",
+      "productVariantId": "cmj1yow2h002pba3p8wiv5ct5",
+      "quantity": 1,
+      "unitPrice": "115",
+      "costPriceAtSale": "81.2",
+      "lineTotal": "115"
+    },
+    {
+      "id": "cmj20aocs006jba3pdy3a63it",
+      "orderId": "cmj20aocs006hba3p1b0dgcf7",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 1,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "16"
+    },
+    {
+      "id": "cmj20aocs006kba3pasn432m1",
+      "orderId": "cmj20aocs006hba3p1b0dgcf7",
+      "productVariantId": "cmj1xebsm001oba3p32wbl3hu",
+      "quantity": 1,
+      "unitPrice": "116",
+      "costPriceAtSale": "83.1",
+      "lineTotal": "116"
+    },
+    {
+      "id": "cmj20aocs006lba3pmneks2kz",
+      "orderId": "cmj20aocs006hba3p1b0dgcf7",
+      "productVariantId": "cmj1ypz6c002sba3p0loeq24s",
+      "quantity": 1,
+      "unitPrice": "67",
+      "costPriceAtSale": "48.05",
+      "lineTotal": "67"
+    },
+    {
+      "id": "cmj20aocs006mba3ph1rr8voy",
+      "orderId": "cmj20aocs006hba3p1b0dgcf7",
+      "productVariantId": "cmj1yy0vv003fba3po4i3ehrp",
+      "quantity": 1,
+      "unitPrice": "30",
+      "costPriceAtSale": "13.65",
+      "lineTotal": "30"
+    },
+    {
+      "id": "cmj20d7hb006rba3pd4m1j66y",
+      "orderId": "cmj20d7hb006pba3pul7buhzy",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 1,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "16"
+    },
+    {
+      "id": "cmj20d7hb006sba3psq41t7ap",
+      "orderId": "cmj20d7hb006pba3pul7buhzy",
+      "productVariantId": "cmj1x57qw001bba3pj733s8ox",
+      "quantity": 1,
+      "unitPrice": "99",
+      "costPriceAtSale": "70.55",
+      "lineTotal": "99"
+    },
+    {
+      "id": "cmj20ek8s006xba3pwk96rev1",
+      "orderId": "cmj20ek8s006vba3p21hn9iyf",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 2,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "32"
+    },
+    {
+      "id": "cmj20ek8s006yba3pqvo70om6",
+      "orderId": "cmj20ek8s006vba3p21hn9iyf",
+      "productVariantId": "cmj1zgps0004tba3p5g187uga",
+      "quantity": 2,
+      "unitPrice": "1",
+      "costPriceAtSale": "0",
+      "lineTotal": "2"
+    },
+    {
+      "id": "cmj20h0850073ba3p8pwbwkbw",
+      "orderId": "cmj20h0850071ba3pr2ptazlv",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 1,
+      "unitPrice": "19",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "19"
+    },
+    {
+      "id": "cmj20h0850074ba3p8imcu3if",
+      "orderId": "cmj20h0850071ba3pr2ptazlv",
+      "productVariantId": "cmj1zgps0004tba3p5g187uga",
+      "quantity": 1,
+      "unitPrice": "1",
+      "costPriceAtSale": "0",
+      "lineTotal": "1"
+    },
+    {
+      "id": "cmj20h0850075ba3proeafhre",
+      "orderId": "cmj20h0850071ba3pr2ptazlv",
+      "productVariantId": "cmj1yy0vv003fba3po4i3ehrp",
+      "quantity": 1,
+      "unitPrice": "30",
+      "costPriceAtSale": "13.65",
+      "lineTotal": "30"
+    },
+    {
+      "id": "cmj20j5kp007aba3pv770ft2l",
+      "orderId": "cmj20j5kp0078ba3p7yskky17",
+      "productVariantId": "cmj1x733y001eba3pbixex6k0",
+      "quantity": 1,
+      "unitPrice": "99",
+      "costPriceAtSale": "70.55",
+      "lineTotal": "99"
+    },
+    {
+      "id": "cmj20kvs6007fba3p3vhhbunj",
+      "orderId": "cmj20kvs5007dba3p1tgntuvr",
+      "productVariantId": "cmj1xfonr001rba3p3jatctxv",
+      "quantity": 1,
+      "unitPrice": "111",
+      "costPriceAtSale": "76.5",
+      "lineTotal": "111"
+    },
+    {
+      "id": "cmj20sl2s007pba3px7inx565",
+      "orderId": "cmj20sl2s007nba3p9bwbuzsl",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 1,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "16"
+    },
+    {
+      "id": "cmj20sl2s007qba3pgfxdfzim",
+      "orderId": "cmj20sl2s007nba3p9bwbuzsl",
+      "productVariantId": "cmj1yngrp002kba3p547hgfqy",
+      "quantity": 1,
+      "unitPrice": "104",
+      "costPriceAtSale": "74.45",
+      "lineTotal": "104"
+    },
+    {
+      "id": "cmj20sl2s007rba3p4hsir0sr",
+      "orderId": "cmj20sl2s007nba3p9bwbuzsl",
+      "productVariantId": "cmj1zbdbc004fba3pcrmupfko",
+      "quantity": 1,
+      "unitPrice": "46",
+      "costPriceAtSale": "34.1",
+      "lineTotal": "46"
+    },
+    {
+      "id": "cmj20sl2s007sba3pq3t4o8g2",
+      "orderId": "cmj20sl2s007nba3p9bwbuzsl",
+      "productVariantId": "cmj1z8tkf0048ba3pfza6g3eh",
+      "quantity": 1,
+      "unitPrice": "48",
+      "costPriceAtSale": "32.65",
+      "lineTotal": "48"
+    },
+    {
+      "id": "cmj20sl2s007tba3pftjl2jb2",
+      "orderId": "cmj20sl2s007nba3p9bwbuzsl",
+      "productVariantId": "cmj1z4h8t0040ba3p2ekniwvl",
+      "quantity": 1,
+      "unitPrice": "44",
+      "costPriceAtSale": "29.2",
+      "lineTotal": "44"
+    },
+    {
+      "id": "cmj20wjz7007yba3ph10mlotc",
+      "orderId": "cmj20wjz7007wba3pqk1q6qcb",
+      "productVariantId": "cmj1yv5xj0036ba3plw03shg5",
+      "quantity": 1,
+      "unitPrice": "26",
+      "costPriceAtSale": "18.55",
+      "lineTotal": "26"
+    },
+    {
+      "id": "cmj20wjz7007zba3pvv5o3dzs",
+      "orderId": "cmj20wjz7007wba3pqk1q6qcb",
+      "productVariantId": "cmj1xckpf001lba3php1bnzzg",
+      "quantity": 1,
+      "unitPrice": "67",
+      "costPriceAtSale": "48.15",
+      "lineTotal": "67"
+    },
+    {
+      "id": "cmj20wjz70080ba3pnyw70gl7",
+      "orderId": "cmj20wjz7007wba3pqk1q6qcb",
+      "productVariantId": "cmj1xbjze001iba3pgc5im1pb",
+      "quantity": 1,
+      "unitPrice": "99",
+      "costPriceAtSale": "70.55",
+      "lineTotal": "99"
+    },
+    {
+      "id": "cmj20zdin0085ba3pfnjjf9kz",
+      "orderId": "cmj20zdin0083ba3phf66srke",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 1,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "16"
+    },
+    {
+      "id": "cmj211vyx008aba3pn8vbjyin",
+      "orderId": "cmj211vyx0088ba3pa0iudbfb",
+      "productVariantId": "cmj1yxaw9003bba3p4q6zuf8m",
+      "quantity": 1,
+      "unitPrice": "30",
+      "costPriceAtSale": "13.65",
+      "lineTotal": "30"
+    },
+    {
+      "id": "cmj211vyx008bba3pduoqvz58",
+      "orderId": "cmj211vyx0088ba3pa0iudbfb",
+      "productVariantId": "cmj1za3u9004bba3py3e72ybj",
+      "quantity": 1,
+      "unitPrice": "45",
+      "costPriceAtSale": "33.1",
+      "lineTotal": "45"
+    },
+    {
+      "id": "cmj2136ed008fba3pkkm7xwlc",
+      "orderId": "cmj2136ed008dba3pt4csohd0",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 1,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "16"
+    },
+    {
+      "id": "cmj2136ed008gba3plvk5xiv1",
+      "orderId": "cmj2136ed008dba3pt4csohd0",
+      "productVariantId": "cmj1yxk2h003dba3pac7l1mvy",
+      "quantity": 2,
+      "unitPrice": "30",
+      "costPriceAtSale": "13.65",
+      "lineTotal": "60"
+    },
+    {
+      "id": "cmj216d75008lba3paujlrdzj",
+      "orderId": "cmj216d75008jba3p9jpqwwak",
+      "productVariantId": "cmj1ycsq6001uba3ptlejsy59",
+      "quantity": 1,
+      "unitPrice": "68",
+      "costPriceAtSale": "44.1",
+      "lineTotal": "68"
+    },
+    {
+      "id": "cmj216d75008mba3p80cjzofh",
+      "orderId": "cmj216d75008jba3p9jpqwwak",
+      "productVariantId": "cmj1ylgnk002eba3p0n5j7irh",
+      "quantity": 1,
+      "unitPrice": "61",
+      "costPriceAtSale": "44.1",
+      "lineTotal": "61"
+    },
+    {
+      "id": "cmj2199if008rba3phqc7h6o1",
+      "orderId": "cmj2199ie008pba3pd5krszpl",
+      "productVariantId": "cmj1zaw66004dba3przhcq0ni",
+      "quantity": 1,
+      "unitPrice": "42",
+      "costPriceAtSale": "33.1",
+      "lineTotal": "42"
+    },
+    {
+      "id": "cmj2199if008sba3pv46wsuaq",
+      "orderId": "cmj2199ie008pba3pd5krszpl",
+      "productVariantId": "cmj1yxaw9003bba3p4q6zuf8m",
+      "quantity": 1,
+      "unitPrice": "30",
+      "costPriceAtSale": "13.65",
+      "lineTotal": "30"
+    },
+    {
+      "id": "cmj21blar008wba3pe9r49l67",
+      "orderId": "cmj21blar008uba3p2so9a600",
+      "productVariantId": "cmj1z6u2f0043ba3pfqit2ykz",
+      "quantity": 1,
+      "unitPrice": "48",
+      "costPriceAtSale": "32.65",
+      "lineTotal": "48"
+    },
+    {
+      "id": "cmj21e8bv0091ba3p31w6qyne",
+      "orderId": "cmj21e8bv008zba3pq7vzeg3t",
+      "productVariantId": "cmj1yggh50022ba3puieh95kr",
+      "quantity": 1,
+      "unitPrice": "65",
+      "costPriceAtSale": "44",
+      "lineTotal": "65"
+    },
+    {
+      "id": "cmj21e8bv0092ba3pnf0n0rxm",
+      "orderId": "cmj21e8bv008zba3pq7vzeg3t",
+      "productVariantId": "cmj1z4293003yba3puwqyfph5",
+      "quantity": 1,
+      "unitPrice": "45",
+      "costPriceAtSale": "29.2",
+      "lineTotal": "45"
+    },
+    {
+      "id": "cmj21flrp0096ba3pk8ij7gs5",
+      "orderId": "cmj21flrp0094ba3peaxylajh",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 1,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "16"
+    },
+    {
+      "id": "cmj21g8ny009aba3pou7fekxa",
+      "orderId": "cmj21g8ny0098ba3ph1ldg8v4",
+      "productVariantId": "cmj1zgps0004tba3p5g187uga",
+      "quantity": 1,
+      "unitPrice": "3",
+      "costPriceAtSale": "0",
+      "lineTotal": "3"
+    },
+    {
+      "id": "cmj21inxf009jba3ppse07bj9",
+      "orderId": "cmj21inxe009hba3plhqr18x4",
+      "productVariantId": "cmj1yhg1u0025ba3phra3svt3",
+      "quantity": 1,
+      "unitPrice": "74",
+      "costPriceAtSale": "0",
+      "lineTotal": "74"
+    },
+    {
+      "id": "cmj21pt6b009uba3p98v9p17q",
+      "orderId": "cmj21pt6a009sba3pp18jhp6y",
+      "productVariantId": "cmj21nifb009mba3p48fl0w2l",
+      "quantity": 1,
+      "unitPrice": "93",
+      "costPriceAtSale": "65.8",
+      "lineTotal": "93"
+    },
+    {
+      "id": "cmj21pt6b009vba3pij3tt2md",
+      "orderId": "cmj21pt6a009sba3pp18jhp6y",
+      "productVariantId": "cmj21owgn009pba3pxl48hgry",
+      "quantity": 1,
+      "unitPrice": "64",
+      "costPriceAtSale": "45.45",
+      "lineTotal": "64"
+    },
+    {
+      "id": "cmj2w2o6w000klgs8512s91n4",
+      "orderId": "cmj2w2o6w000ilgs82v73drsh",
+      "productVariantId": "cmj1yscwp0030ba3pnnoh3t2p",
+      "quantity": 1,
+      "unitPrice": "85",
+      "costPriceAtSale": "54.55",
+      "lineTotal": "85"
+    },
+    {
+      "id": "cmj2wg901000qlgs8hear41ai",
+      "orderId": "cmj2wg901000olgs8zdjg1daq",
+      "productVariantId": "cmj1yywjv003jba3p074entxm",
+      "quantity": 1,
+      "unitPrice": "34",
+      "costPriceAtSale": "14.05",
+      "lineTotal": "34"
+    },
+    {
+      "id": "cmj2witu5000vlgs87w2mwukf",
+      "orderId": "cmj2witu5000tlgs8ftfuixol",
+      "productVariantId": "cmj2wf525000mlgs8ivo80tgj",
+      "quantity": 1,
+      "unitPrice": "34",
+      "costPriceAtSale": "14.05",
+      "lineTotal": "34"
+    },
+    {
+      "id": "cmj2wy88r0016lgs84vv7pcqf",
+      "orderId": "cmj2wy88r0014lgs830v7dv6z",
+      "productVariantId": "cmj2wsxy2000ylgs8lu2s893k",
+      "quantity": 1,
+      "unitPrice": "51",
+      "costPriceAtSale": "37.8",
+      "lineTotal": "51"
+    },
+    {
+      "id": "cmj2wy88s0017lgs85b97lpze",
+      "orderId": "cmj2wy88r0014lgs830v7dv6z",
+      "productVariantId": "cmj2wvm1b0011lgs8pshpc16i",
+      "quantity": 1,
+      "unitPrice": "85",
+      "costPriceAtSale": "58.9",
+      "lineTotal": "85"
+    },
+    {
+      "id": "cmj2x2dkz001blgs813e26gww",
+      "orderId": "cmj2x2dkz0019lgs8x84krxgk",
+      "productVariantId": "cmj1zfm7t004qba3p3oz9tmix",
+      "quantity": 1,
+      "unitPrice": "16",
+      "costPriceAtSale": "5.61",
+      "lineTotal": "16"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "cmj1wtfda000wba3p48qfimtp",
+      "date": "2025-03-05T00:00:00.000Z",
+      "amount": "1506.5",
+      "category": "AGIVA_SPORT",
+      "description": "Premier stock d'habits ",
+      "productId": null,
+      "invoiceUrl": "https://drive.google.com/file/d/13eTTJL0kjK6a5xfYcWGVd_qTelK92Dly/view?usp=sharing",
+      "createdAt": "2025-12-11T20:47:41.327Z"
+    },
+    {
+      "id": "cmj1wtuce000yba3pa5gfot50",
+      "date": "2025-03-05T00:00:00.000Z",
+      "amount": "181",
+      "category": "LOGISTIQUE",
+      "description": "Frais de douanes",
+      "productId": null,
+      "invoiceUrl": null,
+      "createdAt": "2025-12-11T20:48:00.735Z"
+    },
+    {
+      "id": "cmj1wunjm0010ba3pcur7xdfy",
+      "date": "2025-04-14T00:00:00.000Z",
+      "amount": "623.85",
+      "category": "PANDACOLA",
+      "description": "Trousses & Gourdes",
+      "productId": null,
+      "invoiceUrl": "https://drive.google.com/file/d/12g_TezyCoLicrxNOIegctN7IPnGzEOgi/view?usp=sharing",
+      "createdAt": "2025-12-11T20:48:38.578Z"
+    },
+    {
+      "id": "cmj1wvnwo0012ba3pay9ti1cx",
+      "date": "2025-05-21T00:00:00.000Z",
+      "amount": "822.35",
+      "category": "AGIVA_SPORT",
+      "description": "Pré-commande 1",
+      "productId": null,
+      "invoiceUrl": "https://drive.google.com/file/d/1R98bSsHmgzJFI3GZiXriS6IWGS9TuN_3/view?usp=drive_link",
+      "createdAt": "2025-12-11T20:49:25.704Z"
+    },
+    {
+      "id": "cmj1wwp210014ba3pcav5pjv0",
+      "date": "2025-06-21T00:00:00.000Z",
+      "amount": "104.5",
+      "category": "LOGISTIQUE",
+      "description": "Frais de douanes",
+      "productId": null,
+      "invoiceUrl": null,
+      "createdAt": "2025-12-11T20:50:13.849Z"
+    },
+    {
+      "id": "cmj1wy1ze0016ba3pvihb8gnt",
+      "date": "2025-10-09T00:00:00.000Z",
+      "amount": "551.1",
+      "category": "AGIVA_SPORT",
+      "description": "Commande 2 - Permet d'avoir toutes les tailles",
+      "productId": null,
+      "invoiceUrl": "https://drive.google.com/file/d/1yRMjzT7KudHZkR-31k1bCI3fUambezLR/view?usp=drive_link",
+      "createdAt": "2025-12-11T20:51:17.258Z"
+    },
+    {
+      "id": "cmj1wyhn50018ba3ppkmnm9yh",
+      "date": "2025-10-21T00:00:00.000Z",
+      "amount": "74.85",
+      "category": "LOGISTIQUE",
+      "description": "Frais de douanes",
+      "productId": null,
+      "invoiceUrl": null,
+      "createdAt": "2025-12-11T20:51:37.553Z"
+    },
+    {
+      "id": "cmj21xei2009xba3phwumwueb",
+      "date": "2025-12-03T00:00:00.000Z",
+      "amount": "334.35",
+      "category": "AGIVA_SPORT",
+      "description": "N° de facture : AG/202501439 / Commande Pop-up 28.10.2025",
+      "productId": null,
+      "invoiceUrl": "https://drive.google.com/file/d/1Ibr9RyOypohELOrs4WHnQ5zXExXIFm_J/view?usp=drive_link",
+      "createdAt": "2025-12-11T23:10:44.906Z"
+    }
+  ],
+  "giftCards": [
+    {
+      "id": "cmj2s3c2q0001lgs8w7fhlw8l",
+      "code": "GIFT-6LW5Y748",
+      "initialAmount": "50",
+      "remainingAmount": "50",
+      "status": "ACTIVE",
+      "purchaseOrderId": "cmj2s3c2s0003lgs8fv545xow",
+      "purchasedBy": null,
+      "purchasedByName": "Duygu Cordey",
+      "purchasedByEmail": "duygu33@msn.com",
+      "purchasedByPhone": "079 616 94 95 ",
+      "recipientName": "Schir Lola",
+      "recipientEmail": null,
+      "expirationDate": "2026-08-23T00:00:00.000Z",
+      "createdAt": "2025-12-12T11:23:11.715Z",
+      "updatedAt": "2025-12-12T13:11:14.453Z"
+    },
+    {
+      "id": "cmj2s3r660005lgs8q32ap8u9",
+      "code": "GIFT-WJ4WSYXJ",
+      "initialAmount": "50",
+      "remainingAmount": "50",
+      "status": "ACTIVE",
+      "purchaseOrderId": "cmj2s3r670007lgs8nasfaucw",
+      "purchasedBy": null,
+      "purchasedByName": "Duygu Cordey",
+      "purchasedByEmail": "duygu33@msn.com",
+      "purchasedByPhone": "079 616 94 95 ",
+      "recipientName": "Cardoso Giulia",
+      "recipientEmail": null,
+      "expirationDate": "2026-11-30T00:00:00.000Z",
+      "createdAt": "2025-12-12T11:23:31.278Z",
+      "updatedAt": "2025-12-12T13:11:57.172Z"
+    },
+    {
+      "id": "cmj2vpgc3000algs86wxvyy6o",
+      "code": "GIFT-7DYHHUNZ",
+      "initialAmount": "20",
+      "remainingAmount": "20",
+      "status": "ACTIVE",
+      "purchaseOrderId": "cmj2vpgc4000clgs8rypvs3ig",
+      "purchasedBy": null,
+      "purchasedByName": "Tombola - FSG Bussigny",
+      "purchasedByEmail": null,
+      "purchasedByPhone": null,
+      "recipientName": null,
+      "recipientEmail": null,
+      "expirationDate": "2026-11-30T00:00:00.000Z",
+      "createdAt": "2025-12-12T13:04:22.516Z",
+      "updatedAt": "2025-12-12T13:04:22.517Z"
+    },
+    {
+      "id": "cmj2vtfr8000elgs8z97q6ugp",
+      "code": "GIFT-4A8SSTH2",
+      "initialAmount": "10",
+      "remainingAmount": "10",
+      "status": "ACTIVE",
+      "purchaseOrderId": "cmj2vtfr9000glgs8dbkp8i9i",
+      "purchasedBy": null,
+      "purchasedByName": "Tombola - FSG Bussigny",
+      "purchasedByEmail": null,
+      "purchasedByPhone": null,
+      "recipientName": null,
+      "recipientEmail": null,
+      "expirationDate": "2026-11-30T00:00:00.000Z",
+      "createdAt": "2025-12-12T13:07:28.389Z",
+      "updatedAt": "2025-12-12T13:07:28.390Z"
+    }
+  ],
+  "exportDate": "2025-12-12T14:19:56.987Z"
+}
