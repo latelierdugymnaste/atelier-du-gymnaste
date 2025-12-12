@@ -34,8 +34,6 @@ export async function PUT(request: Request, { params }: { params: { id: string }
         name: validated.name,
         category: validated.category,
         sku: validated.sku,
-        baseSellingPrice: validated.baseSellingPrice,
-        baseCostPrice: validated.baseCostPrice,
         isActive: validated.isActive,
       },
       include: {
