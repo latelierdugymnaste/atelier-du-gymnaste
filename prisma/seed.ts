@@ -1,10 +1,22 @@
 // prisma/seed.ts
 import { PrismaClient } from '@prisma/client'
+import bcrypt from 'bcryptjs'
 
 const prisma = new PrismaClient()
 
 async function main() {
   console.log('🌱 Début du seeding...')
+
+  // Créer un utilisateur admin
+  const hashedPassword = await bcrypt.hash('admin123', 10)
+  const admin = await prisma.user.create({
+    data: {
+      email: 'admin@atelier.com',
+      name: 'Admin',
+      password: hashedPassword,
+    },
+  })
+  console.log('✅ Utilisateur admin créé:', admin.email)
 
   // Créer des produits
   const tshirt = await prisma.product.create({

@@ -23,7 +23,7 @@ export const orderSchema = z.object({
   customerEmail: z.string().email("Email invalide").optional().nullable().or(z.literal("")),
   customerPhone: z.string().optional().nullable(),
   customerAddress: z.string().optional().nullable(),
-  salesChannel: z.enum(["STAND", "SITE", "PRECOMMANDE", "AUTRE"]),
+  salesChannel: z.enum(["STAND", "SITE", "PRECOMMANDE", "INSTAGRAM", "WHATSAPP", "EN_SALLE", "AUTRE"]),
   date: z.string().or(z.date()),
   tags: z.string().optional().nullable(),
   paymentMethod: z.enum(["TWINT", "CASH", "AUTRE"]).optional().nullable(),

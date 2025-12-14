@@ -30,9 +30,9 @@ interface OrderItem {
   productVariant: {
     id: string
     size: string
-    color: string
     product: {
       name: string
+      sku: string
     }
   }
 }
@@ -185,21 +185,21 @@ export default function OrderDetailPage({ params }: { params: { id: string } }) 
   }
 
   if (loading) {
-    return <div className="text-center py-12">Chargement...</div>
+    return <div className="text-center py-12 text-gray-900 dark:text-gray-100">Chargement...</div>
   }
 
   if (!order) {
-    return <div className="text-center py-12">Commande non trouvée</div>
+    return <div className="text-center py-12 text-gray-900 dark:text-gray-100">Commande non trouvée</div>
   }
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div>
-          <button onClick={() => router.back()} className="text-blue-600 hover:text-blue-800 mb-2">
+          <button onClick={() => router.back()} className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 mb-2 text-sm sm:text-base">
             ← Retour
           </button>
-          <h1 className="text-3xl font-bold">Commande #{order.id.slice(-8)}</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">Commande #{order.id.slice(-8)}</h1>
         </div>
         <div className="flex items-center gap-3">
           <span className={`px-3 py-1 rounded-full text-sm font-medium ${getStatusColor(order.status)}`}>
@@ -208,13 +208,13 @@ export default function OrderDetailPage({ params }: { params: { id: string } }) 
         </div>
       </div>
 
-      <div className="bg-white p-6 rounded-lg shadow space-y-6">
-        <div className="flex items-center justify-between">
-          <h2 className="text-xl font-bold">Informations</h2>
+      <div className="bg-white dark:bg-gray-800 p-4 sm:p-6 rounded-lg shadow space-y-6 transition-colors">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+          <h2 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white">Informations</h2>
           {!editing && order.status === 'DRAFT' && (
             <button
               onClick={() => setEditing(true)}
-              className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 shadow-md transition-all duration-200"
+              className="w-full sm:w-auto px-4 py-2.5 bg-blue-500 text-white rounded-lg hover:bg-blue-600 shadow-md transition-all duration-200 min-h-[44px]"
             >
               Modifier
             </button>
@@ -223,50 +223,50 @@ export default function OrderDetailPage({ params }: { params: { id: string } }) 
 
         {editing ? (
           <form onSubmit={handleUpdate} className="space-y-4">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium mb-1">Nom du client *</label>
+                <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Nom du client *</label>
                 <input
                   type="text"
                   value={formData.customerName}
                   onChange={(e) => setFormData({ ...formData, customerName: e.target.value })}
-                  className="w-full px-3 py-2 border rounded-md"
+                  className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                   required
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1">Email</label>
+                <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Email</label>
                 <input
                   type="email"
                   value={formData.customerEmail}
                   onChange={(e) => setFormData({ ...formData, customerEmail: e.target.value })}
-                  className="w-full px-3 py-2 border rounded-md"
+                  className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1">Téléphone</label>
+                <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Téléphone</label>
                 <input
                   type="tel"
                   value={formData.customerPhone}
                   onChange={(e) => setFormData({ ...formData, customerPhone: e.target.value })}
-                  className="w-full px-3 py-2 border rounded-md"
+                  className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1">Adresse</label>
+                <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Adresse</label>
                 <input
                   type="text"
                   value={formData.customerAddress}
                   onChange={(e) => setFormData({ ...formData, customerAddress: e.target.value })}
-                  className="w-full px-3 py-2 border rounded-md"
+                  className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1">Canal de vente</label>
+                <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Canal de vente</label>
                 <select
                   value={formData.salesChannel}
                   onChange={(e) => setFormData({ ...formData, salesChannel: e.target.value as any })}
-                  className="w-full px-3 py-2 border rounded-md"
+                  className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                 >
                   <option value="STAND">Stand</option>
                   <option value="SITE">Site web</option>
@@ -275,20 +275,20 @@ export default function OrderDetailPage({ params }: { params: { id: string } }) 
                 </select>
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1">Date</label>
+                <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Date</label>
                 <input
                   type="date"
                   value={formData.date}
                   onChange={(e) => setFormData({ ...formData, date: e.target.value })}
-                  className="w-full px-3 py-2 border rounded-md"
+                  className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1">Mode de paiement</label>
+                <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Mode de paiement</label>
                 <select
                   value={formData.paymentMethod}
                   onChange={(e) => setFormData({ ...formData, paymentMethod: e.target.value as any })}
-                  className="w-full px-3 py-2 border rounded-md"
+                  className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                 >
                   <option value="">Sélectionner...</option>
                   <option value="TWINT">Twint</option>
@@ -296,18 +296,18 @@ export default function OrderDetailPage({ params }: { params: { id: string } }) 
                   <option value="AUTRE">Autre</option>
                 </select>
               </div>
-              <div className="col-span-2">
-                <label className="block text-sm font-medium mb-1">Tags</label>
+              <div className="col-span-1 sm:col-span-2">
+                <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Tags</label>
                 <div className="flex flex-wrap gap-2">
                   {['Livrer', 'Payer', 'Précommander', 'Commander', 'Reçu'].map((tag) => (
                     <button
                       key={tag}
                       type="button"
                       onClick={() => toggleTag(tag)}
-                      className={`px-3 py-1 rounded-full text-sm transition-colors ${
+                      className={`px-3 py-2 rounded-full text-sm transition-colors min-h-[44px] ${
                         formData.tags.includes(tag)
-                          ? 'bg-blue-500 text-white'
-                          : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                          ? 'bg-blue-500 text-white hover:bg-blue-600'
+                          : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-600'
                       }`}
                     >
                       {tag}
@@ -316,40 +316,40 @@ export default function OrderDetailPage({ params }: { params: { id: string } }) 
                 </div>
               </div>
             </div>
-            <div className="flex gap-2">
-              <button type="submit" className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 shadow-md transition-all duration-200">
+            <div className="flex flex-col sm:flex-row gap-2">
+              <button type="submit" className="w-full sm:w-auto px-4 py-2.5 bg-blue-500 text-white rounded-lg hover:bg-blue-600 shadow-md transition-all duration-200 min-h-[44px]">
                 Enregistrer
               </button>
               <button
                 type="button"
                 onClick={() => setEditing(false)}
-                className="px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600"
+                className="w-full sm:w-auto px-4 py-2.5 bg-gray-500 text-white rounded-md hover:bg-gray-600 min-h-[44px]"
               >
                 Annuler
               </button>
             </div>
           </form>
         ) : (
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
-              <h3 className="text-sm font-medium text-gray-500 mb-2">Client</h3>
-              <p className="font-medium">{order.customerName}</p>
-              {order.customerEmail && <p className="text-sm text-gray-600">{order.customerEmail}</p>}
-              {order.customerPhone && <p className="text-sm text-gray-600">{order.customerPhone}</p>}
-              {order.customerAddress && <p className="text-sm text-gray-600">{order.customerAddress}</p>}
+              <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">Client</h3>
+              <p className="font-medium text-gray-900 dark:text-gray-100">{order.customerName}</p>
+              {order.customerEmail && <p className="text-sm text-gray-600 dark:text-gray-400">{order.customerEmail}</p>}
+              {order.customerPhone && <p className="text-sm text-gray-600 dark:text-gray-400">{order.customerPhone}</p>}
+              {order.customerAddress && <p className="text-sm text-gray-600 dark:text-gray-400">{order.customerAddress}</p>}
             </div>
             <div>
-              <h3 className="text-sm font-medium text-gray-500 mb-2">Commande</h3>
-              <p className="text-sm"><span className="font-medium">Date:</span> {format(new Date(order.date), 'dd/MM/yyyy')}</p>
-              <p className="text-sm"><span className="font-medium">Canal:</span> {order.salesChannel}</p>
-              <p className="text-sm"><span className="font-medium">Paiement:</span> {order.paymentMethod || '-'}</p>
-              <p className="text-sm"><span className="font-medium">Créée le:</span> {format(new Date(order.createdAt), 'dd/MM/yyyy HH:mm')}</p>
+              <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">Commande</h3>
+              <p className="text-sm text-gray-900 dark:text-gray-100"><span className="font-medium">Date:</span> {format(new Date(order.date), 'dd/MM/yyyy')}</p>
+              <p className="text-sm text-gray-900 dark:text-gray-100"><span className="font-medium">Canal:</span> {order.salesChannel}</p>
+              <p className="text-sm text-gray-900 dark:text-gray-100"><span className="font-medium">Paiement:</span> {order.paymentMethod || '-'}</p>
+              <p className="text-sm text-gray-900 dark:text-gray-100"><span className="font-medium">Créée le:</span> {format(new Date(order.createdAt), 'dd/MM/yyyy HH:mm')}</p>
               {order.tags && (
                 <div className="mt-2">
-                  <span className="text-sm font-medium">Tags: </span>
+                  <span className="text-sm font-medium text-gray-900 dark:text-gray-100">Tags: </span>
                   <div className="flex flex-wrap gap-1 mt-1">
                     {order.tags.split(',').map((tag) => (
-                      <span key={tag} className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                      <span key={tag} className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-xs">
                         {tag}
                       </span>
                     ))}
@@ -361,29 +361,29 @@ export default function OrderDetailPage({ params }: { params: { id: string } }) 
         )}
       </div>
 
-      <div className="bg-white p-6 rounded-lg shadow">
-        <h2 className="text-xl font-bold mb-4">Articles</h2>
-        <div className="overflow-hidden border rounded-lg">
+      <div className="bg-white dark:bg-gray-800 p-4 sm:p-6 rounded-lg shadow transition-colors">
+        <h2 className="text-lg sm:text-xl font-bold mb-4 text-gray-900 dark:text-white">Articles</h2>
+        <div className="overflow-x-auto border dark:border-gray-600 rounded-lg">
           <table className="min-w-full">
-            <thead className="bg-gray-50">
+            <thead className="bg-gray-50 dark:bg-gray-700">
               <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Produit</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Taille</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Couleur</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Quantité</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Prix unit.</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Total</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase">Produit</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase">Taille</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase">SKU</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase">Quantité</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase">Prix unit.</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase">Total</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-gray-200">
+            <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
               {order.items.map((item) => (
                 <tr key={item.id}>
-                  <td className="px-6 py-4">{item.productVariant.product.name}</td>
-                  <td className="px-6 py-4">{item.productVariant.size}</td>
-                  <td className="px-6 py-4">{item.productVariant.color}</td>
-                  <td className="px-6 py-4">{item.quantity}</td>
-                  <td className="px-6 py-4">{item.unitPrice} CHF</td>
-                  <td className="px-6 py-4 font-medium">{item.lineTotal} CHF</td>
+                  <td className="px-6 py-4 text-gray-900 dark:text-gray-100">{item.productVariant.product.name}</td>
+                  <td className="px-6 py-4 text-gray-900 dark:text-gray-100">{item.productVariant.size}</td>
+                  <td className="px-6 py-4 text-gray-900 dark:text-gray-100">{item.productVariant.product.sku}</td>
+                  <td className="px-6 py-4 text-gray-900 dark:text-gray-100">{item.quantity}</td>
+                  <td className="px-6 py-4 text-gray-900 dark:text-gray-100">{item.unitPrice} CHF</td>
+                  <td className="px-6 py-4 font-medium text-gray-900 dark:text-gray-100">{item.lineTotal} CHF</td>
                 </tr>
               ))}
             </tbody>
@@ -391,25 +391,25 @@ export default function OrderDetailPage({ params }: { params: { id: string } }) 
         </div>
         <div className="mt-4 flex justify-end">
           <div className="text-right">
-            <p className="text-2xl font-bold">Total: {order.totalAmount} CHF</p>
+            <p className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">Total: {order.totalAmount} CHF</p>
           </div>
         </div>
       </div>
 
-      <div className="bg-white p-6 rounded-lg shadow">
-        <h2 className="text-xl font-bold mb-4">Actions</h2>
-        <div className="flex gap-3">
+      <div className="bg-white dark:bg-gray-800 p-4 sm:p-6 rounded-lg shadow transition-colors">
+        <h2 className="text-lg sm:text-xl font-bold mb-4 text-gray-900 dark:text-white">Actions</h2>
+        <div className="flex flex-col sm:flex-row gap-3">
           {order.status === 'DRAFT' && (
             <>
               <button
                 onClick={confirmOrder}
-                className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow-md transition-all duration-200"
+                className="w-full sm:w-auto px-4 py-2.5 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow-md transition-all duration-200 min-h-[44px]"
               >
                 Confirmer la commande
               </button>
               <button
                 onClick={cancelOrder}
-                className="px-4 py-2 bg-orange-500 text-white rounded-md hover:bg-orange-600"
+                className="w-full sm:w-auto px-4 py-2.5 bg-orange-500 text-white rounded-md hover:bg-orange-600 min-h-[44px]"
               >
                 Annuler la commande
               </button>
@@ -417,7 +417,7 @@ export default function OrderDetailPage({ params }: { params: { id: string } }) 
           )}
           <button
             onClick={deleteOrder}
-            className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600"
+            className="w-full sm:w-auto px-4 py-2.5 bg-red-500 text-white rounded-md hover:bg-red-600 min-h-[44px]"
           >
             Supprimer
           </button>

@@ -378,38 +378,38 @@ export default function NewOrderPage() {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div>
-          <button onClick={() => router.back()} className="text-blue-600 hover:text-blue-800 mb-2">
+          <button onClick={() => router.back()} className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 mb-2 text-sm sm:text-base">
             ← Retour
           </button>
-          <h1 className="text-3xl font-bold">Nouvelle Commande</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">Nouvelle Commande</h1>
         </div>
       </div>
 
       {/* Modal Nouveau Produit */}
       {showNewProductModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-            <h2 className="text-2xl font-bold mb-4">Créer un nouveau produit</h2>
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 sm:p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto transition-colors">
+            <h2 className="text-xl sm:text-2xl font-bold mb-4 text-gray-900 dark:text-white">Créer un nouveau produit</h2>
             <div className="space-y-4">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium mb-1">Nom du produit *</label>
+                  <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Nom du produit *</label>
                   <input
                     type="text"
                     value={newProductData.name}
                     onChange={(e) => setNewProductData({ ...newProductData, name: e.target.value })}
-                    className="w-full px-3 py-2 border rounded-md"
+                    className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                     placeholder="ex: Legging femme"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Catégorie *</label>
+                  <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Catégorie *</label>
                   <select
                     value={newProductData.category}
                     onChange={(e) => setNewProductData({ ...newProductData, category: e.target.value })}
-                    className="w-full px-3 py-2 border rounded-md"
+                    className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                   >
                     <option value="">Sélectionner...</option>
                     <option value="Justaucorps">Justaucorps</option>
@@ -420,71 +420,71 @@ export default function NewOrderPage() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium mb-1">SKU *</label>
+                  <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">SKU *</label>
                   <input
                     type="text"
                     value={newProductData.sku}
                     onChange={(e) => setNewProductData({ ...newProductData, sku: e.target.value })}
-                    className="w-full px-3 py-2 border rounded-md"
+                    className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                     placeholder="ex: LEG-001"
                   />
                 </div>
               </div>
 
-              <div className="border-t pt-4">
-                <h3 className="font-semibold mb-3">Variante</h3>
-                <div className="grid grid-cols-2 gap-4">
+              <div className="border-t dark:border-gray-600 pt-4">
+                <h3 className="font-semibold mb-3 text-gray-900 dark:text-white">Variante</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-medium mb-1">Taille *</label>
+                    <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Taille *</label>
                     <input
                       type="text"
                       value={newProductData.size}
                       onChange={(e) => setNewProductData({ ...newProductData, size: e.target.value })}
-                      className="w-full px-3 py-2 border rounded-md"
+                      className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                       placeholder="ex: S, M, L, XL"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium mb-1">Prix de vente (CHF) *</label>
+                    <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Prix de vente (CHF) *</label>
                     <input
                       type="number"
                       step="0.01"
                       value={newProductData.sellingPrice}
                       onChange={(e) => setNewProductData({ ...newProductData, sellingPrice: e.target.value })}
-                      className="w-full px-3 py-2 border rounded-md"
+                      className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                       placeholder="0.00"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium mb-1">Prix d'achat (CHF)</label>
+                    <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Prix d'achat (CHF)</label>
                     <input
                       type="number"
                       step="0.01"
                       value={newProductData.costPrice}
                       onChange={(e) => setNewProductData({ ...newProductData, costPrice: e.target.value })}
-                      className="w-full px-3 py-2 border rounded-md"
+                      className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                       placeholder="0.00"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium mb-1">Stock initial</label>
+                    <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Stock initial</label>
                     <input
                       type="number"
                       value={newProductData.stock}
                       onChange={(e) => setNewProductData({ ...newProductData, stock: e.target.value })}
-                      className="w-full px-3 py-2 border rounded-md"
+                      className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                       placeholder="0"
                     />
                   </div>
                 </div>
               </div>
 
-              <div className="flex gap-3 pt-4 border-t">
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t dark:border-gray-600">
                 <button
                   onClick={createNewProduct}
-                  className="flex-1 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow-md transition-all duration-200"
+                  className="w-full sm:flex-1 px-4 py-2.5 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow-md transition-all duration-200 min-h-[44px]"
                 >
                   Créer le produit
                 </button>
@@ -501,7 +501,7 @@ export default function NewOrderPage() {
                       stock: ''
                     })
                   }}
-                  className="flex-1 px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600"
+                  className="w-full sm:flex-1 px-4 py-2.5 bg-gray-500 text-white rounded-md hover:bg-gray-600 min-h-[44px]"
                 >
                   Annuler
                 </button>
@@ -511,22 +511,22 @@ export default function NewOrderPage() {
         </div>
       )}
 
-      <div className="bg-white p-6 rounded-lg shadow space-y-6">
-        <div className="flex items-center justify-between">
-          <h3 className="font-bold text-lg">Informations client</h3>
+      <div className="bg-white dark:bg-gray-800 p-4 sm:p-6 rounded-lg shadow space-y-6 transition-colors">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+          <h3 className="font-bold text-lg text-gray-900 dark:text-white">Informations client</h3>
           {!showNewCustomerForm && (
             <button
               onClick={() => setShowNewCustomerForm(true)}
-              className="text-sm px-3 py-1 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow-md transition-all duration-200"
+              className="w-full sm:w-auto text-sm px-3 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow-md transition-all duration-200 min-h-[44px]"
             >
               + Nouveau client
             </button>
           )}
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="relative">
-            <label className="block text-sm font-medium mb-1">Nom du client *</label>
+            <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Nom du client *</label>
             <input
               ref={customerInputRef}
               type="text"
@@ -537,105 +537,108 @@ export default function NewOrderPage() {
                   setShowCustomerDropdown(true)
                 }
               }}
-              className="w-full px-3 py-2 border rounded-md"
+              className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
               placeholder="Rechercher ou saisir un nom"
               required
             />
             {showCustomerDropdown && filteredCustomers.length > 0 && (
-              <div className="absolute z-10 w-full mt-1 bg-white border rounded-md shadow-lg max-h-60 overflow-y-auto">
+              <div className="absolute z-10 w-full mt-1 bg-white dark:bg-gray-700 border dark:border-gray-600 rounded-md shadow-lg max-h-60 overflow-y-auto">
                 {filteredCustomers.map((customer) => (
                   <div
                     key={customer.id}
                     onClick={() => selectCustomer(customer)}
-                    className="px-3 py-2 hover:bg-gray-100 cursor-pointer"
+                    className="px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 cursor-pointer"
                   >
-                    <div className="font-medium">{customer.name}</div>
-                    {customer.email && <div className="text-xs text-gray-500">{customer.email}</div>}
-                    {customer.phone && <div className="text-xs text-gray-500">{customer.phone}</div>}
+                    <div className="font-medium text-gray-900 dark:text-gray-100">{customer.name}</div>
+                    {customer.email && <div className="text-xs text-gray-500 dark:text-gray-400">{customer.email}</div>}
+                    {customer.phone && <div className="text-xs text-gray-500 dark:text-gray-400">{customer.phone}</div>}
                   </div>
                 ))}
               </div>
             )}
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Email</label>
+            <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Email</label>
             <input
               type="email"
               value={formData.customerEmail}
               onChange={(e) => setFormData({ ...formData, customerEmail: e.target.value })}
-              className="w-full px-3 py-2 border rounded-md"
+              className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
               placeholder="client@example.com"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Téléphone</label>
+            <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Téléphone</label>
             <input
               type="tel"
               value={formData.customerPhone}
               onChange={(e) => setFormData({ ...formData, customerPhone: e.target.value })}
-              className="w-full px-3 py-2 border rounded-md"
+              className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
               placeholder="+41 XX XXX XX XX"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Adresse</label>
+            <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Adresse</label>
             <input
               type="text"
               value={formData.customerAddress}
               onChange={(e) => setFormData({ ...formData, customerAddress: e.target.value })}
-              className="w-full px-3 py-2 border rounded-md"
+              className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
               placeholder="Rue, ville, code postal"
             />
           </div>
         </div>
 
         {showNewCustomerForm && (
-          <div className="flex gap-2 pt-2">
+          <div className="flex flex-col sm:flex-row gap-2 pt-2">
             <button
               onClick={createNewCustomer}
-              className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow-md transition-all duration-200"
+              className="w-full sm:w-auto px-4 py-2.5 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow-md transition-all duration-200 min-h-[44px]"
             >
               Enregistrer le nouveau client
             </button>
             <button
               onClick={() => setShowNewCustomerForm(false)}
-              className="px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600"
+              className="w-full sm:w-auto px-4 py-2.5 bg-gray-500 text-white rounded-md hover:bg-gray-600 min-h-[44px]"
             >
               Annuler
             </button>
           </div>
         )}
 
-        <h3 className="font-bold text-lg pt-4">Informations commande</h3>
-        <div className="grid grid-cols-2 gap-4">
+        <h3 className="font-bold text-lg pt-4 text-gray-900 dark:text-white">Informations commande</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label className="block text-sm font-medium mb-1">Canal de vente</label>
+            <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Canal de vente</label>
             <select
               value={formData.salesChannel}
               onChange={(e) => setFormData({ ...formData, salesChannel: e.target.value as any })}
-              className="w-full px-3 py-2 border rounded-md"
+              className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
             >
               <option value="STAND">Stand</option>
               <option value="SITE">Site web</option>
               <option value="PRECOMMANDE">Précommande</option>
+              <option value="INSTAGRAM">Instagram</option>
+              <option value="WHATSAPP">Whatsapp</option>
+              <option value="EN_SALLE">En salle</option>
               <option value="AUTRE">Autre</option>
             </select>
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Date</label>
+            <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Date</label>
             <input
               type="date"
               value={formData.date}
               onChange={(e) => setFormData({ ...formData, date: e.target.value })}
-              className="w-full px-3 py-2 border rounded-md"
+              className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Mode de paiement</label>
+            <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Mode de paiement</label>
             <select
               value={formData.paymentMethod}
               onChange={(e) => setFormData({ ...formData, paymentMethod: e.target.value as any })}
-              className="w-full px-3 py-2 border rounded-md"
+              className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
             >
               <option value="">Sélectionner...</option>
               <option value="TWINT">Twint</option>
@@ -644,17 +647,17 @@ export default function NewOrderPage() {
             </select>
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Tags</label>
+            <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Tags</label>
             <div className="flex flex-wrap gap-2">
               {['Livrer', 'Payer', 'Précommander', 'Commander', 'Reçu'].map((tag) => (
                 <button
                   key={tag}
                   type="button"
                   onClick={() => toggleTag(tag)}
-                  className={`px-3 py-1 rounded-full text-sm transition-colors ${
+                  className={`px-3 py-2 rounded-full text-sm transition-colors min-h-[44px] ${
                     formData.tags.includes(tag)
-                      ? 'bg-blue-500 text-white'
-                      : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                      ? 'bg-blue-500 text-white hover:bg-blue-600'
+                      : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-600'
                   }`}
                 >
                   {tag}
@@ -664,12 +667,12 @@ export default function NewOrderPage() {
           </div>
         </div>
 
-        <div className="border-t pt-6">
-          <div className="flex items-center justify-between mb-4">
-            <h3 className="font-bold">Ajouter des articles</h3>
+        <div className="border-t dark:border-gray-600 pt-6">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4 gap-3">
+            <h3 className="font-bold text-gray-900 dark:text-white">Ajouter des articles</h3>
             <button
               onClick={() => setShowNewProductModal(true)}
-              className="text-sm px-3 py-1 bg-purple-500 text-white rounded-lg hover:bg-purple-600 shadow-md transition-all duration-200"
+              className="w-full sm:w-auto text-sm px-3 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 shadow-md transition-all duration-200 min-h-[44px]"
             >
               + Nouveau produit
             </button>
@@ -677,19 +680,19 @@ export default function NewOrderPage() {
           <div className="space-y-4">
             {/* Barre de recherche */}
             <div>
-              <label className="block text-sm font-medium mb-1">Rechercher un produit</label>
+              <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Rechercher un produit</label>
               <input
                 type="text"
                 placeholder="Rechercher par nom, SKU, taille..."
                 value={productSearchTerm}
                 onChange={(e) => setProductSearchTerm(e.target.value)}
-                className="w-full px-4 py-2 border rounded-md"
+                className="w-full px-4 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
               />
             </div>
 
-            <div className="grid grid-cols-12 gap-2 items-end">
-              <div className="col-span-5">
-                <label className="block text-sm font-medium mb-1">Produit / Variante</label>
+            <div className="grid grid-cols-1 gap-4">
+              <div>
+                <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Produit / Variante</label>
                 <select
                   value={selectedVariantId}
                   onChange={(e) => {
@@ -702,7 +705,7 @@ export default function NewOrderPage() {
                       }
                     }
                   }}
-                  className="w-full px-3 py-2 border rounded-md"
+                  className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                 >
                   <option value="">Sélectionner...</option>
                   {products
@@ -724,53 +727,55 @@ export default function NewOrderPage() {
                     )}
                 </select>
               </div>
-            <div className="col-span-2">
-              <label className="block text-sm font-medium mb-1">Quantité</label>
-              <input
-                type="number"
-                min="1"
-                value={quantity}
-                onChange={(e) => setQuantity(parseInt(e.target.value))}
-                className="w-full px-3 py-2 border rounded-md"
-              />
-            </div>
-            <div className="col-span-2">
-              <label className="block text-sm font-medium mb-1">Prix unitaire (CHF)</label>
-              <input
-                type="number"
-                step="0.01"
-                value={customPrice || ''}
-                onChange={(e) => setCustomPrice(parseFloat(e.target.value))}
-                className="w-full px-3 py-2 border rounded-md"
-              />
-            </div>
-            <div className="col-span-3">
-              <button
-                onClick={addItem}
-                className="w-full px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 shadow-md transition-all duration-200"
-              >
-                Ajouter
-              </button>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div>
+                  <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Quantité</label>
+                  <input
+                    type="number"
+                    min="1"
+                    value={quantity}
+                    onChange={(e) => setQuantity(parseInt(e.target.value))}
+                    className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Prix unitaire (CHF)</label>
+                  <input
+                    type="number"
+                    step="0.01"
+                    value={customPrice || ''}
+                    onChange={(e) => setCustomPrice(parseFloat(e.target.value))}
+                    className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
+                  />
+                </div>
+                <div className="flex items-end">
+                  <button
+                    onClick={addItem}
+                    className="w-full px-4 py-2.5 bg-blue-500 text-white rounded-lg hover:bg-blue-600 shadow-md transition-all duration-200 min-h-[44px]"
+                  >
+                    Ajouter
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        </div>
 
         {items.length > 0 && (
-          <div className="border-t pt-6">
-            <h3 className="font-bold mb-4">Articles de la commande</h3>
+          <div className="border-t dark:border-gray-600 pt-6">
+            <h3 className="font-bold mb-4 text-gray-900 dark:text-white">Articles de la commande</h3>
             <div className="space-y-2">
               {items.map((item, index) => (
-                <div key={index} className="flex items-center justify-between p-3 bg-gray-50 rounded-md">
-                  <div className="flex-1">
-                    <p className="font-medium">{item.variantLabel}</p>
-                    <p className="text-sm text-gray-600">
+                <div key={index} className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-md gap-3 transition-colors">
+                  <div className="flex-1 w-full sm:w-auto">
+                    <p className="font-medium text-gray-900 dark:text-gray-100">{item.variantLabel}</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
                       Quantité: {item.quantity} × {item.unitPrice} CHF = {(item.quantity * item.unitPrice).toFixed(2)} CHF
                     </p>
                   </div>
                   <button
                     onClick={() => removeItem(index)}
-                    className="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600"
+                    className="w-full sm:w-auto px-3 py-2 bg-red-500 text-white rounded hover:bg-red-600 min-h-[44px]"
                   >
                     Retirer
                   </button>
@@ -779,17 +784,17 @@ export default function NewOrderPage() {
             </div>
 
             {/* Section Bon Cadeau */}
-            <div className="mt-6 border-t pt-4">
-              <h4 className="font-semibold mb-3">Bon cadeau</h4>
+            <div className="mt-6 border-t dark:border-gray-600 pt-4">
+              <h4 className="font-semibold mb-3 text-gray-900 dark:text-white">Bon cadeau</h4>
               {!appliedGiftCard ? (
                 <div className="space-y-3">
                   {availableGiftCards.length > 0 && (
                     <div>
-                      <label className="block text-sm font-medium mb-1">Sélectionner un bon cadeau existant</label>
+                      <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Sélectionner un bon cadeau existant</label>
                       <select
                         value={giftCardCode}
                         onChange={(e) => setGiftCardCode(e.target.value)}
-                        className="w-full px-3 py-2 border rounded-md"
+                        className="w-full px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                       >
                         <option value="">-- Choisir un bon cadeau --</option>
                         {availableGiftCards.map((gc) => (
@@ -802,18 +807,18 @@ export default function NewOrderPage() {
                     </div>
                   )}
                   <div>
-                    <label className="block text-sm font-medium mb-1">Ou entrer un code manuellement</label>
-                    <div className="flex gap-2">
+                    <label className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">Ou entrer un code manuellement</label>
+                    <div className="flex flex-col sm:flex-row gap-2">
                       <input
                         type="text"
                         value={giftCardCode}
                         onChange={(e) => setGiftCardCode(e.target.value.toUpperCase())}
                         placeholder="Entrez le code du bon cadeau"
-                        className="flex-1 px-3 py-2 border rounded-md"
+                        className="flex-1 px-3 py-2.5 border rounded-md dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600 min-h-[44px] text-base"
                       />
                       <button
                         onClick={applyGiftCard}
-                        className="px-4 py-2 bg-purple-500 text-white rounded-md hover:bg-purple-600"
+                        className="w-full sm:w-auto px-4 py-2.5 bg-purple-500 text-white rounded-md hover:bg-purple-600 min-h-[44px]"
                       >
                         Appliquer
                       </button>
@@ -821,22 +826,22 @@ export default function NewOrderPage() {
                   </div>
                 </div>
               ) : (
-                <div className="bg-purple-50 p-4 rounded-md border border-purple-200">
-                  <div className="flex items-center justify-between">
+                <div className="bg-purple-50 dark:bg-purple-900 p-4 rounded-md border border-purple-200 dark:border-purple-700 transition-colors">
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
                     <div>
-                      <p className="font-semibold text-purple-800">Code: {appliedGiftCard.code}</p>
-                      <p className="text-sm text-purple-600">
+                      <p className="font-semibold text-purple-800 dark:text-purple-200">Code: {appliedGiftCard.code}</p>
+                      <p className="text-sm text-purple-600 dark:text-purple-300">
                         Réduction appliquée: -{giftCardDiscount.toFixed(2)} CHF
                       </p>
                       {appliedGiftCard.remainingAmount - giftCardDiscount > 0 && (
-                        <p className="text-xs text-purple-500">
+                        <p className="text-xs text-purple-500 dark:text-purple-400">
                           Solde restant après utilisation: {(appliedGiftCard.remainingAmount - giftCardDiscount).toFixed(2)} CHF
                         </p>
                       )}
                     </div>
                     <button
                       onClick={removeGiftCard}
-                      className="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600 text-sm"
+                      className="w-full sm:w-auto px-3 py-2 bg-red-500 text-white rounded hover:bg-red-600 text-sm min-h-[44px]"
                     >
                       Retirer
                     </button>
@@ -846,25 +851,25 @@ export default function NewOrderPage() {
             </div>
 
             <div className="mt-4 text-right space-y-2">
-              <p className="text-lg">Sous-total: {calculateSubtotal().toFixed(2)} CHF</p>
+              <p className="text-lg text-gray-900 dark:text-gray-100">Sous-total: {calculateSubtotal().toFixed(2)} CHF</p>
               {giftCardDiscount > 0 && (
-                <p className="text-lg text-purple-600">Bon cadeau: -{giftCardDiscount.toFixed(2)} CHF</p>
+                <p className="text-lg text-purple-600 dark:text-purple-400">Bon cadeau: -{giftCardDiscount.toFixed(2)} CHF</p>
               )}
-              <p className="text-2xl font-bold border-t pt-2">Total: {calculateTotal().toFixed(2)} CHF</p>
+              <p className="text-xl sm:text-2xl font-bold border-t dark:border-gray-600 pt-2 text-gray-900 dark:text-white">Total: {calculateTotal().toFixed(2)} CHF</p>
             </div>
           </div>
         )}
 
-        <div className="flex gap-4 justify-end border-t pt-6">
+        <div className="flex flex-col sm:flex-row gap-4 justify-end border-t dark:border-gray-600 pt-6">
           <button
             onClick={() => handleSubmit(false)}
-            className="px-6 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600"
+            className="w-full sm:w-auto px-6 py-2.5 bg-gray-500 text-white rounded-md hover:bg-gray-600 min-h-[44px]"
           >
             Enregistrer en brouillon
           </button>
           <button
             onClick={() => handleSubmit(true)}
-            className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow-md transition-all duration-200"
+            className="w-full sm:w-auto px-6 py-2.5 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow-md transition-all duration-200 min-h-[44px]"
           >
             Confirmer la commande
           </button>

@@ -382,6 +382,9 @@ export default function EditOrderPage({ params }: { params: { id: string } }) {
               <option value="STAND">Stand</option>
               <option value="SITE">Site web</option>
               <option value="PRECOMMANDE">Précommande</option>
+              <option value="INSTAGRAM">Instagram</option>
+              <option value="WHATSAPP">Whatsapp</option>
+              <option value="EN_SALLE">En salle</option>
               <option value="AUTRE">Autre</option>
             </select>
           </div>

@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background: white;
+@layer utilities {
+  /* Utilitaire pour rendre les tables responsive */
+  .table-responsive {
+    @apply w-full overflow-x-auto;
+  }
+
+  .table-responsive table {
+    @apply min-w-full;
+  }
+
+  /* Sur mobile, permettre le scroll horizontal */
+  @media (max-width: 768px) {
+    .table-responsive {
+      @apply -mx-4 px-4;
+    }
+  }
 }

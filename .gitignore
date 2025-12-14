@@ -15,6 +15,9 @@ build
 prisma/*.db
 prisma/*.db-journal
 
+# Backups
+backups/
+
 # Generated files
 /generated/prisma
 
